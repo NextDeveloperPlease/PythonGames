@@ -5,7 +5,7 @@ from pathlib import Path
 
 root_dir = str(Path(__file__).resolve().parent)
 def fight(player):
-    dogs = pd.read_csv(root_dir + '\dogs.csv')
+    dogs = pd.read_csv(root_dir + '/dogs.csv')
     dogs = dogs.columns
     num_dogs = 6
     
