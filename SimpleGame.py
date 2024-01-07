@@ -3,6 +3,7 @@ from Race import *
 from Fight import *
 from Player import Player
 from RussianRoulette import *
+from Work import *
 
 running = True
 
@@ -32,7 +33,7 @@ def gamble():
                 st.quit()
         return True
 
-def work():
+#def work():
     '''Work can escalate with your skill.'''
     '''Start as a horse manure worker.'''
     '''Get a position as horse hoover.'''
@@ -40,20 +41,22 @@ def work():
     '''Race your horse.'''
     '''Buy more horses and rig races'''
     
-    user_input = input("\n1. Work\t2. Request promotion\n3. Get paycheck\nWhat would you like to do?\n")
-    match(user_input.lower):
-        case 'work': # Increments the clock by a fixed amount, adds funds to paycheck, increases boss's happiness (If done too many times, it will kill you.)
-            ""
-        case 'promotion': # Promotion if high enough happiness, otherwise boss's happiness decreases
-            ""
-        case 'paycheck': # If day matches payday, add money from paycheck to wallet (taxes aren't payed by the employee)
-            ""
-        case 'exit':
-            return False
-        case 'quit':
-            player.quit()
-            return False
-    return True
+    #user_input = input("\n1. Work\t2. Request promotion\n3. Get paycheck\nWhat would you like to do?\n")
+    #match(user_input.lower):
+    #    case 'work': # Increments the clock by a fixed amount, adds funds to paycheck, increases boss's happiness (If done too many times, it will kill you.)
+    #        ""
+    #    case 'promotion': # Promotion if high enough happiness, otherwise boss's happiness decreases
+    #        ""
+    #    case 'paycheck': # If day matches payday, add money from paycheck to wallet (taxes aren't payed by the employee)
+    #        ""
+    #    case 'exit':
+    #        return False
+    #    case 'quit':
+    #        player.quit()
+    #return True
+    
+def working():
+    return work()
 
 def pay_debt():
     '''Here you pay your debt (starts at $1,000,000)'''
@@ -121,7 +124,7 @@ while running and player.alive:
         case 'gamble':
             while gamble():''
         case 'Work':
-            work()
+            while working(): ''
         case 'pay':
             pay_debt()
         case 'loan':
