@@ -11,5 +11,5 @@ with open('Names.csv', 'r', newline='') as name:
     names = [row[0] for row in reader]
 with open(csv_file_path, 'a', newline='') as file:
         writer = csv.writer(file)
-        for i in np.arange(1000):
+        for i in np.arange(100):
             writer.writerow([f'{np.random.choice(names)} {np.random.choice(names)}',np.random.randint(50,2000)])
