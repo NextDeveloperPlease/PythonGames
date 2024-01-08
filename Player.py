@@ -1,9 +1,10 @@
-import sys
+from clock import time
 class Player:
     def __init__(self):
         self.wallet = 1000
         self.og_wallet = 1000
         self.alive = True
+        self.clock = time()
     
     def get_wallet(self):
         return self.wallet
