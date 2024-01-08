@@ -9,7 +9,7 @@ def work():
         getting_input = False
         match(user_input):
             case 'work': 
-                
+              ''  
             case 'promotion': ''
             case 'quit': ''
             case 'apply': ''
