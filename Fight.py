@@ -1,9 +1,8 @@
 import numpy as np
 import pandas as pd
 import Settings as st
-from pathlib import Path
 
-root_dir = str(Path(__file__).resolve().parent)
+root_dir = st.get_root()
 def fight(player):
     dogs = pd.read_csv(root_dir + '/Dogs.csv')
     dogs = dogs.columns

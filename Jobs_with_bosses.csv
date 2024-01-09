@@ -1,0 +1,964 @@
+name,rapport_required,job,duration,pay,rapport,skill_increased,skill_required
+Nova Elizabeth,277,Theater Usher,480,7,1,1,0
+Nova Elizabeth,277,Theater Concessionist,480,9,2,2,5
+Nova Elizabeth,277,Theater Assistant Manager,600,18,5,5,50
+Nova Elizabeth,277,Fast food Cook,480,10,1,1,3
+Nova Elizabeth,277,Fast food Cashier,480,14,1,10,15
+Nova Elizabeth,277,Fast food Manager,600,24,5,20,70
+Nova Elizabeth,277,Restaurant Casher,600,10,3,3,35
+Nova Elizabeth,277,Restaurant Cook,720,30,7,15,60
+Nova Elizabeth,277,Restaurant Manager,720,45,15,25,100
+Elizabeth Henry,1534,Theater Usher,480,7,1,1,0
+Elizabeth Henry,1534,Theater Concessionist,480,9,2,2,5
+Elizabeth Henry,1534,Theater Assistant Manager,600,18,5,5,50
+Elizabeth Henry,1534,Fast food Cook,480,10,1,1,3
+Elizabeth Henry,1534,Fast food Cashier,480,14,1,10,15
+Elizabeth Henry,1534,Fast food Manager,600,24,5,20,70
+Elizabeth Henry,1534,Restaurant Casher,600,10,3,3,35
+Elizabeth Henry,1534,Restaurant Cook,720,30,7,15,60
+Elizabeth Henry,1534,Restaurant Manager,720,45,15,25,100
+Lillian Noah,1957,Theater Usher,480,7,1,1,0
+Lillian Noah,1957,Theater Concessionist,480,9,2,2,5
+Lillian Noah,1957,Theater Assistant Manager,600,18,5,5,50
+Lillian Noah,1957,Fast food Cook,480,10,1,1,3
+Lillian Noah,1957,Fast food Cashier,480,14,1,10,15
+Lillian Noah,1957,Fast food Manager,600,24,5,20,70
+Lillian Noah,1957,Restaurant Casher,600,10,3,3,35
+Lillian Noah,1957,Restaurant Cook,720,30,7,15,60
+Lillian Noah,1957,Restaurant Manager,720,45,15,25,100
+Emma Mateo,1634,Theater Usher,480,7,1,1,0
+Emma Mateo,1634,Theater Concessionist,480,9,2,2,5
+Emma Mateo,1634,Theater Assistant Manager,600,18,5,5,50
+Emma Mateo,1634,Fast food Cook,480,10,1,1,3
+Emma Mateo,1634,Fast food Cashier,480,14,1,10,15
+Emma Mateo,1634,Fast food Manager,600,24,5,20,70
+Emma Mateo,1634,Restaurant Casher,600,10,3,3,35
+Emma Mateo,1634,Restaurant Cook,720,30,7,15,60
+Emma Mateo,1634,Restaurant Manager,720,45,15,25,100
+Jayden Henry,247,Theater Usher,480,7,1,1,0
+Jayden Henry,247,Theater Concessionist,480,9,2,2,5
+Jayden Henry,247,Theater Assistant Manager,600,18,5,5,50
+Jayden Henry,247,Fast food Cook,480,10,1,1,3
+Jayden Henry,247,Fast food Cashier,480,14,1,10,15
+Jayden Henry,247,Fast food Manager,600,24,5,20,70
+Jayden Henry,247,Restaurant Casher,600,10,3,3,35
+Jayden Henry,247,Restaurant Cook,720,30,7,15,60
+Jayden Henry,247,Restaurant Manager,720,45,15,25,100
+Camila Gabriel,304,Theater Usher,480,7,1,1,0
+Camila Gabriel,304,Theater Concessionist,480,9,2,2,5
+Camila Gabriel,304,Theater Assistant Manager,600,18,5,5,50
+Camila Gabriel,304,Fast food Cook,480,10,1,1,3
+Camila Gabriel,304,Fast food Cashier,480,14,1,10,15
+Camila Gabriel,304,Fast food Manager,600,24,5,20,70
+Camila Gabriel,304,Restaurant Casher,600,10,3,3,35
+Camila Gabriel,304,Restaurant Cook,720,30,7,15,60
+Camila Gabriel,304,Restaurant Manager,720,45,15,25,100
+Scarlett Luke,407,Theater Usher,480,7,1,1,0
+Scarlett Luke,407,Theater Concessionist,480,9,2,2,5
+Scarlett Luke,407,Theater Assistant Manager,600,18,5,5,50
+Scarlett Luke,407,Fast food Cook,480,10,1,1,3
+Scarlett Luke,407,Fast food Cashier,480,14,1,10,15
+Scarlett Luke,407,Fast food Manager,600,24,5,20,70
+Scarlett Luke,407,Restaurant Casher,600,10,3,3,35
+Scarlett Luke,407,Restaurant Cook,720,30,7,15,60
+Scarlett Luke,407,Restaurant Manager,720,45,15,25,100
+Elena Landon,1199,Theater Usher,480,7,1,1,0
+Elena Landon,1199,Theater Concessionist,480,9,2,2,5
+Elena Landon,1199,Theater Assistant Manager,600,18,5,5,50
+Elena Landon,1199,Fast food Cook,480,10,1,1,3
+Elena Landon,1199,Fast food Cashier,480,14,1,10,15
+Elena Landon,1199,Fast food Manager,600,24,5,20,70
+Elena Landon,1199,Restaurant Casher,600,10,3,3,35
+Elena Landon,1199,Restaurant Cook,720,30,7,15,60
+Elena Landon,1199,Restaurant Manager,720,45,15,25,100
+Leah James,1059,Theater Usher,480,7,1,1,0
+Leah James,1059,Theater Concessionist,480,9,2,2,5
+Leah James,1059,Theater Assistant Manager,600,18,5,5,50
+Leah James,1059,Fast food Cook,480,10,1,1,3
+Leah James,1059,Fast food Cashier,480,14,1,10,15
+Leah James,1059,Fast food Manager,600,24,5,20,70
+Leah James,1059,Restaurant Casher,600,10,3,3,35
+Leah James,1059,Restaurant Cook,720,30,7,15,60
+Leah James,1059,Restaurant Manager,720,45,15,25,100
+Mila Ryan,1942,Theater Usher,480,7,1,1,0
+Mila Ryan,1942,Theater Concessionist,480,9,2,2,5
+Mila Ryan,1942,Theater Assistant Manager,600,18,5,5,50
+Mila Ryan,1942,Fast food Cook,480,10,1,1,3
+Mila Ryan,1942,Fast food Cashier,480,14,1,10,15
+Mila Ryan,1942,Fast food Manager,600,24,5,20,70
+Mila Ryan,1942,Restaurant Casher,600,10,3,3,35
+Mila Ryan,1942,Restaurant Cook,720,30,7,15,60
+Mila Ryan,1942,Restaurant Manager,720,45,15,25,100
+Aaliyah Olivia,258,Theater Usher,480,7,1,1,0
+Aaliyah Olivia,258,Theater Concessionist,480,9,2,2,5
+Aaliyah Olivia,258,Theater Assistant Manager,600,18,5,5,50
+Aaliyah Olivia,258,Fast food Cook,480,10,1,1,3
+Aaliyah Olivia,258,Fast food Cashier,480,14,1,10,15
+Aaliyah Olivia,258,Fast food Manager,600,24,5,20,70
+Aaliyah Olivia,258,Restaurant Casher,600,10,3,3,35
+Aaliyah Olivia,258,Restaurant Cook,720,30,7,15,60
+Aaliyah Olivia,258,Restaurant Manager,720,45,15,25,100
+Ezra Ryan,982,Theater Usher,480,7,1,1,0
+Ezra Ryan,982,Theater Concessionist,480,9,2,2,5
+Ezra Ryan,982,Theater Assistant Manager,600,18,5,5,50
+Ezra Ryan,982,Fast food Cook,480,10,1,1,3
+Ezra Ryan,982,Fast food Cashier,480,14,1,10,15
+Ezra Ryan,982,Fast food Manager,600,24,5,20,70
+Ezra Ryan,982,Restaurant Casher,600,10,3,3,35
+Ezra Ryan,982,Restaurant Cook,720,30,7,15,60
+Ezra Ryan,982,Restaurant Manager,720,45,15,25,100
+Ella Mia,1619,Theater Usher,480,7,1,1,0
+Ella Mia,1619,Theater Concessionist,480,9,2,2,5
+Ella Mia,1619,Theater Assistant Manager,600,18,5,5,50
+Ella Mia,1619,Fast food Cook,480,10,1,1,3
+Ella Mia,1619,Fast food Cashier,480,14,1,10,15
+Ella Mia,1619,Fast food Manager,600,24,5,20,70
+Ella Mia,1619,Restaurant Casher,600,10,3,3,35
+Ella Mia,1619,Restaurant Cook,720,30,7,15,60
+Ella Mia,1619,Restaurant Manager,720,45,15,25,100
+Grace Emily,802,Theater Usher,480,7,1,1,0
+Grace Emily,802,Theater Concessionist,480,9,2,2,5
+Grace Emily,802,Theater Assistant Manager,600,18,5,5,50
+Grace Emily,802,Fast food Cook,480,10,1,1,3
+Grace Emily,802,Fast food Cashier,480,14,1,10,15
+Grace Emily,802,Fast food Manager,600,24,5,20,70
+Grace Emily,802,Restaurant Casher,600,10,3,3,35
+Grace Emily,802,Restaurant Cook,720,30,7,15,60
+Grace Emily,802,Restaurant Manager,720,45,15,25,100
+Luna Lincoln,768,Theater Usher,480,7,1,1,0
+Luna Lincoln,768,Theater Concessionist,480,9,2,2,5
+Luna Lincoln,768,Theater Assistant Manager,600,18,5,5,50
+Luna Lincoln,768,Fast food Cook,480,10,1,1,3
+Luna Lincoln,768,Fast food Cashier,480,14,1,10,15
+Luna Lincoln,768,Fast food Manager,600,24,5,20,70
+Luna Lincoln,768,Restaurant Casher,600,10,3,3,35
+Luna Lincoln,768,Restaurant Cook,720,30,7,15,60
+Luna Lincoln,768,Restaurant Manager,720,45,15,25,100
+Harper Ella,337,Theater Usher,480,7,1,1,0
+Harper Ella,337,Theater Concessionist,480,9,2,2,5
+Harper Ella,337,Theater Assistant Manager,600,18,5,5,50
+Harper Ella,337,Fast food Cook,480,10,1,1,3
+Harper Ella,337,Fast food Cashier,480,14,1,10,15
+Harper Ella,337,Fast food Manager,600,24,5,20,70
+Harper Ella,337,Restaurant Casher,600,10,3,3,35
+Harper Ella,337,Restaurant Cook,720,30,7,15,60
+Harper Ella,337,Restaurant Manager,720,45,15,25,100
+Elizabeth Aria,677,Theater Usher,480,7,1,1,0
+Elizabeth Aria,677,Theater Concessionist,480,9,2,2,5
+Elizabeth Aria,677,Theater Assistant Manager,600,18,5,5,50
+Elizabeth Aria,677,Fast food Cook,480,10,1,1,3
+Elizabeth Aria,677,Fast food Cashier,480,14,1,10,15
+Elizabeth Aria,677,Fast food Manager,600,24,5,20,70
+Elizabeth Aria,677,Restaurant Casher,600,10,3,3,35
+Elizabeth Aria,677,Restaurant Cook,720,30,7,15,60
+Elizabeth Aria,677,Restaurant Manager,720,45,15,25,100
+Logan Michael,1772,Theater Usher,480,7,1,1,0
+Logan Michael,1772,Theater Concessionist,480,9,2,2,5
+Logan Michael,1772,Theater Assistant Manager,600,18,5,5,50
+Logan Michael,1772,Fast food Cook,480,10,1,1,3
+Logan Michael,1772,Fast food Cashier,480,14,1,10,15
+Logan Michael,1772,Fast food Manager,600,24,5,20,70
+Logan Michael,1772,Restaurant Casher,600,10,3,3,35
+Logan Michael,1772,Restaurant Cook,720,30,7,15,60
+Logan Michael,1772,Restaurant Manager,720,45,15,25,100
+Jackson Emilia,1118,Theater Usher,480,7,1,1,0
+Jackson Emilia,1118,Theater Concessionist,480,9,2,2,5
+Jackson Emilia,1118,Theater Assistant Manager,600,18,5,5,50
+Jackson Emilia,1118,Fast food Cook,480,10,1,1,3
+Jackson Emilia,1118,Fast food Cashier,480,14,1,10,15
+Jackson Emilia,1118,Fast food Manager,600,24,5,20,70
+Jackson Emilia,1118,Restaurant Casher,600,10,3,3,35
+Jackson Emilia,1118,Restaurant Cook,720,30,7,15,60
+Jackson Emilia,1118,Restaurant Manager,720,45,15,25,100
+Liam Wyatt,317,Theater Usher,480,7,1,1,0
+Liam Wyatt,317,Theater Concessionist,480,9,2,2,5
+Liam Wyatt,317,Theater Assistant Manager,600,18,5,5,50
+Liam Wyatt,317,Fast food Cook,480,10,1,1,3
+Liam Wyatt,317,Fast food Cashier,480,14,1,10,15
+Liam Wyatt,317,Fast food Manager,600,24,5,20,70
+Liam Wyatt,317,Restaurant Casher,600,10,3,3,35
+Liam Wyatt,317,Restaurant Cook,720,30,7,15,60
+Liam Wyatt,317,Restaurant Manager,720,45,15,25,100
+Aaliyah Nova,1559,Theater Usher,480,7,1,1,0
+Aaliyah Nova,1559,Theater Concessionist,480,9,2,2,5
+Aaliyah Nova,1559,Theater Assistant Manager,600,18,5,5,50
+Aaliyah Nova,1559,Fast food Cook,480,10,1,1,3
+Aaliyah Nova,1559,Fast food Cashier,480,14,1,10,15
+Aaliyah Nova,1559,Fast food Manager,600,24,5,20,70
+Aaliyah Nova,1559,Restaurant Casher,600,10,3,3,35
+Aaliyah Nova,1559,Restaurant Cook,720,30,7,15,60
+Aaliyah Nova,1559,Restaurant Manager,720,45,15,25,100
+Lincoln Lillian,119,Theater Usher,480,7,1,1,0
+Lincoln Lillian,119,Theater Concessionist,480,9,2,2,5
+Lincoln Lillian,119,Theater Assistant Manager,600,18,5,5,50
+Lincoln Lillian,119,Fast food Cook,480,10,1,1,3
+Lincoln Lillian,119,Fast food Cashier,480,14,1,10,15
+Lincoln Lillian,119,Fast food Manager,600,24,5,20,70
+Lincoln Lillian,119,Restaurant Casher,600,10,3,3,35
+Lincoln Lillian,119,Restaurant Cook,720,30,7,15,60
+Lincoln Lillian,119,Restaurant Manager,720,45,15,25,100
+Isaac Julian,133,Theater Usher,480,7,1,1,0
+Isaac Julian,133,Theater Concessionist,480,9,2,2,5
+Isaac Julian,133,Theater Assistant Manager,600,18,5,5,50
+Isaac Julian,133,Fast food Cook,480,10,1,1,3
+Isaac Julian,133,Fast food Cashier,480,14,1,10,15
+Isaac Julian,133,Fast food Manager,600,24,5,20,70
+Isaac Julian,133,Restaurant Casher,600,10,3,3,35
+Isaac Julian,133,Restaurant Cook,720,30,7,15,60
+Isaac Julian,133,Restaurant Manager,720,45,15,25,100
+Dylan Sophia,953,Theater Usher,480,7,1,1,0
+Dylan Sophia,953,Theater Concessionist,480,9,2,2,5
+Dylan Sophia,953,Theater Assistant Manager,600,18,5,5,50
+Dylan Sophia,953,Fast food Cook,480,10,1,1,3
+Dylan Sophia,953,Fast food Cashier,480,14,1,10,15
+Dylan Sophia,953,Fast food Manager,600,24,5,20,70
+Dylan Sophia,953,Restaurant Casher,600,10,3,3,35
+Dylan Sophia,953,Restaurant Cook,720,30,7,15,60
+Dylan Sophia,953,Restaurant Manager,720,45,15,25,100
+Emily Sophia,346,Theater Usher,480,7,1,1,0
+Emily Sophia,346,Theater Concessionist,480,9,2,2,5
+Emily Sophia,346,Theater Assistant Manager,600,18,5,5,50
+Emily Sophia,346,Fast food Cook,480,10,1,1,3
+Emily Sophia,346,Fast food Cashier,480,14,1,10,15
+Emily Sophia,346,Fast food Manager,600,24,5,20,70
+Emily Sophia,346,Restaurant Casher,600,10,3,3,35
+Emily Sophia,346,Restaurant Cook,720,30,7,15,60
+Emily Sophia,346,Restaurant Manager,720,45,15,25,100
+Victoria John,1314,Theater Usher,480,7,1,1,0
+Victoria John,1314,Theater Concessionist,480,9,2,2,5
+Victoria John,1314,Theater Assistant Manager,600,18,5,5,50
+Victoria John,1314,Fast food Cook,480,10,1,1,3
+Victoria John,1314,Fast food Cashier,480,14,1,10,15
+Victoria John,1314,Fast food Manager,600,24,5,20,70
+Victoria John,1314,Restaurant Casher,600,10,3,3,35
+Victoria John,1314,Restaurant Cook,720,30,7,15,60
+Victoria John,1314,Restaurant Manager,720,45,15,25,100
+Mateo Maya,1388,Theater Usher,480,7,1,1,0
+Mateo Maya,1388,Theater Concessionist,480,9,2,2,5
+Mateo Maya,1388,Theater Assistant Manager,600,18,5,5,50
+Mateo Maya,1388,Fast food Cook,480,10,1,1,3
+Mateo Maya,1388,Fast food Cashier,480,14,1,10,15
+Mateo Maya,1388,Fast food Manager,600,24,5,20,70
+Mateo Maya,1388,Restaurant Casher,600,10,3,3,35
+Mateo Maya,1388,Restaurant Cook,720,30,7,15,60
+Mateo Maya,1388,Restaurant Manager,720,45,15,25,100
+Grayson Aubrey,889,Theater Usher,480,7,1,1,0
+Grayson Aubrey,889,Theater Concessionist,480,9,2,2,5
+Grayson Aubrey,889,Theater Assistant Manager,600,18,5,5,50
+Grayson Aubrey,889,Fast food Cook,480,10,1,1,3
+Grayson Aubrey,889,Fast food Cashier,480,14,1,10,15
+Grayson Aubrey,889,Fast food Manager,600,24,5,20,70
+Grayson Aubrey,889,Restaurant Casher,600,10,3,3,35
+Grayson Aubrey,889,Restaurant Cook,720,30,7,15,60
+Grayson Aubrey,889,Restaurant Manager,720,45,15,25,100
+Emma Maya,1091,Theater Usher,480,7,1,1,0
+Emma Maya,1091,Theater Concessionist,480,9,2,2,5
+Emma Maya,1091,Theater Assistant Manager,600,18,5,5,50
+Emma Maya,1091,Fast food Cook,480,10,1,1,3
+Emma Maya,1091,Fast food Cashier,480,14,1,10,15
+Emma Maya,1091,Fast food Manager,600,24,5,20,70
+Emma Maya,1091,Restaurant Casher,600,10,3,3,35
+Emma Maya,1091,Restaurant Cook,720,30,7,15,60
+Emma Maya,1091,Restaurant Manager,720,45,15,25,100
+Wyatt Emilia,252,Theater Usher,480,7,1,1,0
+Wyatt Emilia,252,Theater Concessionist,480,9,2,2,5
+Wyatt Emilia,252,Theater Assistant Manager,600,18,5,5,50
+Wyatt Emilia,252,Fast food Cook,480,10,1,1,3
+Wyatt Emilia,252,Fast food Cashier,480,14,1,10,15
+Wyatt Emilia,252,Fast food Manager,600,24,5,20,70
+Wyatt Emilia,252,Restaurant Casher,600,10,3,3,35
+Wyatt Emilia,252,Restaurant Cook,720,30,7,15,60
+Wyatt Emilia,252,Restaurant Manager,720,45,15,25,100
+Andrew Lily,313,Theater Usher,480,7,1,1,0
+Andrew Lily,313,Theater Concessionist,480,9,2,2,5
+Andrew Lily,313,Theater Assistant Manager,600,18,5,5,50
+Andrew Lily,313,Fast food Cook,480,10,1,1,3
+Andrew Lily,313,Fast food Cashier,480,14,1,10,15
+Andrew Lily,313,Fast food Manager,600,24,5,20,70
+Andrew Lily,313,Restaurant Casher,600,10,3,3,35
+Andrew Lily,313,Restaurant Cook,720,30,7,15,60
+Andrew Lily,313,Restaurant Manager,720,45,15,25,100
+Emily Matthew,1928,Theater Usher,480,7,1,1,0
+Emily Matthew,1928,Theater Concessionist,480,9,2,2,5
+Emily Matthew,1928,Theater Assistant Manager,600,18,5,5,50
+Emily Matthew,1928,Fast food Cook,480,10,1,1,3
+Emily Matthew,1928,Fast food Cashier,480,14,1,10,15
+Emily Matthew,1928,Fast food Manager,600,24,5,20,70
+Emily Matthew,1928,Restaurant Casher,600,10,3,3,35
+Emily Matthew,1928,Restaurant Cook,720,30,7,15,60
+Emily Matthew,1928,Restaurant Manager,720,45,15,25,100
+Henry Andrew,1457,Theater Usher,480,7,1,1,0
+Henry Andrew,1457,Theater Concessionist,480,9,2,2,5
+Henry Andrew,1457,Theater Assistant Manager,600,18,5,5,50
+Henry Andrew,1457,Fast food Cook,480,10,1,1,3
+Henry Andrew,1457,Fast food Cashier,480,14,1,10,15
+Henry Andrew,1457,Fast food Manager,600,24,5,20,70
+Henry Andrew,1457,Restaurant Casher,600,10,3,3,35
+Henry Andrew,1457,Restaurant Cook,720,30,7,15,60
+Henry Andrew,1457,Restaurant Manager,720,45,15,25,100
+Lincoln Emily,817,Theater Usher,480,7,1,1,0
+Lincoln Emily,817,Theater Concessionist,480,9,2,2,5
+Lincoln Emily,817,Theater Assistant Manager,600,18,5,5,50
+Lincoln Emily,817,Fast food Cook,480,10,1,1,3
+Lincoln Emily,817,Fast food Cashier,480,14,1,10,15
+Lincoln Emily,817,Fast food Manager,600,24,5,20,70
+Lincoln Emily,817,Restaurant Casher,600,10,3,3,35
+Lincoln Emily,817,Restaurant Cook,720,30,7,15,60
+Lincoln Emily,817,Restaurant Manager,720,45,15,25,100
+Avery Christian,328,Theater Usher,480,7,1,1,0
+Avery Christian,328,Theater Concessionist,480,9,2,2,5
+Avery Christian,328,Theater Assistant Manager,600,18,5,5,50
+Avery Christian,328,Fast food Cook,480,10,1,1,3
+Avery Christian,328,Fast food Cashier,480,14,1,10,15
+Avery Christian,328,Fast food Manager,600,24,5,20,70
+Avery Christian,328,Restaurant Casher,600,10,3,3,35
+Avery Christian,328,Restaurant Cook,720,30,7,15,60
+Avery Christian,328,Restaurant Manager,720,45,15,25,100
+Anthony Jack,1703,Theater Usher,480,7,1,1,0
+Anthony Jack,1703,Theater Concessionist,480,9,2,2,5
+Anthony Jack,1703,Theater Assistant Manager,600,18,5,5,50
+Anthony Jack,1703,Fast food Cook,480,10,1,1,3
+Anthony Jack,1703,Fast food Cashier,480,14,1,10,15
+Anthony Jack,1703,Fast food Manager,600,24,5,20,70
+Anthony Jack,1703,Restaurant Casher,600,10,3,3,35
+Anthony Jack,1703,Restaurant Cook,720,30,7,15,60
+Anthony Jack,1703,Restaurant Manager,720,45,15,25,100
+Leah Madelyn,728,Theater Usher,480,7,1,1,0
+Leah Madelyn,728,Theater Concessionist,480,9,2,2,5
+Leah Madelyn,728,Theater Assistant Manager,600,18,5,5,50
+Leah Madelyn,728,Fast food Cook,480,10,1,1,3
+Leah Madelyn,728,Fast food Cashier,480,14,1,10,15
+Leah Madelyn,728,Fast food Manager,600,24,5,20,70
+Leah Madelyn,728,Restaurant Casher,600,10,3,3,35
+Leah Madelyn,728,Restaurant Cook,720,30,7,15,60
+Leah Madelyn,728,Restaurant Manager,720,45,15,25,100
+Avery Nathan,1807,Theater Usher,480,7,1,1,0
+Avery Nathan,1807,Theater Concessionist,480,9,2,2,5
+Avery Nathan,1807,Theater Assistant Manager,600,18,5,5,50
+Avery Nathan,1807,Fast food Cook,480,10,1,1,3
+Avery Nathan,1807,Fast food Cashier,480,14,1,10,15
+Avery Nathan,1807,Fast food Manager,600,24,5,20,70
+Avery Nathan,1807,Restaurant Casher,600,10,3,3,35
+Avery Nathan,1807,Restaurant Cook,720,30,7,15,60
+Avery Nathan,1807,Restaurant Manager,720,45,15,25,100
+Benjamin Hannah,1244,Theater Usher,480,7,1,1,0
+Benjamin Hannah,1244,Theater Concessionist,480,9,2,2,5
+Benjamin Hannah,1244,Theater Assistant Manager,600,18,5,5,50
+Benjamin Hannah,1244,Fast food Cook,480,10,1,1,3
+Benjamin Hannah,1244,Fast food Cashier,480,14,1,10,15
+Benjamin Hannah,1244,Fast food Manager,600,24,5,20,70
+Benjamin Hannah,1244,Restaurant Casher,600,10,3,3,35
+Benjamin Hannah,1244,Restaurant Cook,720,30,7,15,60
+Benjamin Hannah,1244,Restaurant Manager,720,45,15,25,100
+Hudson Sofia,1211,Theater Usher,480,7,1,1,0
+Hudson Sofia,1211,Theater Concessionist,480,9,2,2,5
+Hudson Sofia,1211,Theater Assistant Manager,600,18,5,5,50
+Hudson Sofia,1211,Fast food Cook,480,10,1,1,3
+Hudson Sofia,1211,Fast food Cashier,480,14,1,10,15
+Hudson Sofia,1211,Fast food Manager,600,24,5,20,70
+Hudson Sofia,1211,Restaurant Casher,600,10,3,3,35
+Hudson Sofia,1211,Restaurant Cook,720,30,7,15,60
+Hudson Sofia,1211,Restaurant Manager,720,45,15,25,100
+Jaxon Wyatt,1004,Theater Usher,480,7,1,1,0
+Jaxon Wyatt,1004,Theater Concessionist,480,9,2,2,5
+Jaxon Wyatt,1004,Theater Assistant Manager,600,18,5,5,50
+Jaxon Wyatt,1004,Fast food Cook,480,10,1,1,3
+Jaxon Wyatt,1004,Fast food Cashier,480,14,1,10,15
+Jaxon Wyatt,1004,Fast food Manager,600,24,5,20,70
+Jaxon Wyatt,1004,Restaurant Casher,600,10,3,3,35
+Jaxon Wyatt,1004,Restaurant Cook,720,30,7,15,60
+Jaxon Wyatt,1004,Restaurant Manager,720,45,15,25,100
+Gabriel Isaac,1965,Theater Usher,480,7,1,1,0
+Gabriel Isaac,1965,Theater Concessionist,480,9,2,2,5
+Gabriel Isaac,1965,Theater Assistant Manager,600,18,5,5,50
+Gabriel Isaac,1965,Fast food Cook,480,10,1,1,3
+Gabriel Isaac,1965,Fast food Cashier,480,14,1,10,15
+Gabriel Isaac,1965,Fast food Manager,600,24,5,20,70
+Gabriel Isaac,1965,Restaurant Casher,600,10,3,3,35
+Gabriel Isaac,1965,Restaurant Cook,720,30,7,15,60
+Gabriel Isaac,1965,Restaurant Manager,720,45,15,25,100
+Hannah Madelyn,275,Theater Usher,480,7,1,1,0
+Hannah Madelyn,275,Theater Concessionist,480,9,2,2,5
+Hannah Madelyn,275,Theater Assistant Manager,600,18,5,5,50
+Hannah Madelyn,275,Fast food Cook,480,10,1,1,3
+Hannah Madelyn,275,Fast food Cashier,480,14,1,10,15
+Hannah Madelyn,275,Fast food Manager,600,24,5,20,70
+Hannah Madelyn,275,Restaurant Casher,600,10,3,3,35
+Hannah Madelyn,275,Restaurant Cook,720,30,7,15,60
+Hannah Madelyn,275,Restaurant Manager,720,45,15,25,100
+Henry Grayson,1507,Theater Usher,480,7,1,1,0
+Henry Grayson,1507,Theater Concessionist,480,9,2,2,5
+Henry Grayson,1507,Theater Assistant Manager,600,18,5,5,50
+Henry Grayson,1507,Fast food Cook,480,10,1,1,3
+Henry Grayson,1507,Fast food Cashier,480,14,1,10,15
+Henry Grayson,1507,Fast food Manager,600,24,5,20,70
+Henry Grayson,1507,Restaurant Casher,600,10,3,3,35
+Henry Grayson,1507,Restaurant Cook,720,30,7,15,60
+Henry Grayson,1507,Restaurant Manager,720,45,15,25,100
+William Asher,201,Theater Usher,480,7,1,1,0
+William Asher,201,Theater Concessionist,480,9,2,2,5
+William Asher,201,Theater Assistant Manager,600,18,5,5,50
+William Asher,201,Fast food Cook,480,10,1,1,3
+William Asher,201,Fast food Cashier,480,14,1,10,15
+William Asher,201,Fast food Manager,600,24,5,20,70
+William Asher,201,Restaurant Casher,600,10,3,3,35
+William Asher,201,Restaurant Cook,720,30,7,15,60
+William Asher,201,Restaurant Manager,720,45,15,25,100
+Christian Grayson,940,Theater Usher,480,7,1,1,0
+Christian Grayson,940,Theater Concessionist,480,9,2,2,5
+Christian Grayson,940,Theater Assistant Manager,600,18,5,5,50
+Christian Grayson,940,Fast food Cook,480,10,1,1,3
+Christian Grayson,940,Fast food Cashier,480,14,1,10,15
+Christian Grayson,940,Fast food Manager,600,24,5,20,70
+Christian Grayson,940,Restaurant Casher,600,10,3,3,35
+Christian Grayson,940,Restaurant Cook,720,30,7,15,60
+Christian Grayson,940,Restaurant Manager,720,45,15,25,100
+Matthew Landon,472,Theater Usher,480,7,1,1,0
+Matthew Landon,472,Theater Concessionist,480,9,2,2,5
+Matthew Landon,472,Theater Assistant Manager,600,18,5,5,50
+Matthew Landon,472,Fast food Cook,480,10,1,1,3
+Matthew Landon,472,Fast food Cashier,480,14,1,10,15
+Matthew Landon,472,Fast food Manager,600,24,5,20,70
+Matthew Landon,472,Restaurant Casher,600,10,3,3,35
+Matthew Landon,472,Restaurant Cook,720,30,7,15,60
+Matthew Landon,472,Restaurant Manager,720,45,15,25,100
+Mateo Audrey,1109,Theater Usher,480,7,1,1,0
+Mateo Audrey,1109,Theater Concessionist,480,9,2,2,5
+Mateo Audrey,1109,Theater Assistant Manager,600,18,5,5,50
+Mateo Audrey,1109,Fast food Cook,480,10,1,1,3
+Mateo Audrey,1109,Fast food Cashier,480,14,1,10,15
+Mateo Audrey,1109,Fast food Manager,600,24,5,20,70
+Mateo Audrey,1109,Restaurant Casher,600,10,3,3,35
+Mateo Audrey,1109,Restaurant Cook,720,30,7,15,60
+Mateo Audrey,1109,Restaurant Manager,720,45,15,25,100
+Scarlett Nathan,378,Theater Usher,480,7,1,1,0
+Scarlett Nathan,378,Theater Concessionist,480,9,2,2,5
+Scarlett Nathan,378,Theater Assistant Manager,600,18,5,5,50
+Scarlett Nathan,378,Fast food Cook,480,10,1,1,3
+Scarlett Nathan,378,Fast food Cashier,480,14,1,10,15
+Scarlett Nathan,378,Fast food Manager,600,24,5,20,70
+Scarlett Nathan,378,Restaurant Casher,600,10,3,3,35
+Scarlett Nathan,378,Restaurant Cook,720,30,7,15,60
+Scarlett Nathan,378,Restaurant Manager,720,45,15,25,100
+Sarah Nora,640,Theater Usher,480,7,1,1,0
+Sarah Nora,640,Theater Concessionist,480,9,2,2,5
+Sarah Nora,640,Theater Assistant Manager,600,18,5,5,50
+Sarah Nora,640,Fast food Cook,480,10,1,1,3
+Sarah Nora,640,Fast food Cashier,480,14,1,10,15
+Sarah Nora,640,Fast food Manager,600,24,5,20,70
+Sarah Nora,640,Restaurant Casher,600,10,3,3,35
+Sarah Nora,640,Restaurant Cook,720,30,7,15,60
+Sarah Nora,640,Restaurant Manager,720,45,15,25,100
+Ellie Jackson,1466,Theater Usher,480,7,1,1,0
+Ellie Jackson,1466,Theater Concessionist,480,9,2,2,5
+Ellie Jackson,1466,Theater Assistant Manager,600,18,5,5,50
+Ellie Jackson,1466,Fast food Cook,480,10,1,1,3
+Ellie Jackson,1466,Fast food Cashier,480,14,1,10,15
+Ellie Jackson,1466,Fast food Manager,600,24,5,20,70
+Ellie Jackson,1466,Restaurant Casher,600,10,3,3,35
+Ellie Jackson,1466,Restaurant Cook,720,30,7,15,60
+Ellie Jackson,1466,Restaurant Manager,720,45,15,25,100
+Sofia Isaiah,1630,Theater Usher,480,7,1,1,0
+Sofia Isaiah,1630,Theater Concessionist,480,9,2,2,5
+Sofia Isaiah,1630,Theater Assistant Manager,600,18,5,5,50
+Sofia Isaiah,1630,Fast food Cook,480,10,1,1,3
+Sofia Isaiah,1630,Fast food Cashier,480,14,1,10,15
+Sofia Isaiah,1630,Fast food Manager,600,24,5,20,70
+Sofia Isaiah,1630,Restaurant Casher,600,10,3,3,35
+Sofia Isaiah,1630,Restaurant Cook,720,30,7,15,60
+Sofia Isaiah,1630,Restaurant Manager,720,45,15,25,100
+Sebastian Luna,1823,Theater Usher,480,7,1,1,0
+Sebastian Luna,1823,Theater Concessionist,480,9,2,2,5
+Sebastian Luna,1823,Theater Assistant Manager,600,18,5,5,50
+Sebastian Luna,1823,Fast food Cook,480,10,1,1,3
+Sebastian Luna,1823,Fast food Cashier,480,14,1,10,15
+Sebastian Luna,1823,Fast food Manager,600,24,5,20,70
+Sebastian Luna,1823,Restaurant Casher,600,10,3,3,35
+Sebastian Luna,1823,Restaurant Cook,720,30,7,15,60
+Sebastian Luna,1823,Restaurant Manager,720,45,15,25,100
+Olivia Luna,233,Theater Usher,480,7,1,1,0
+Olivia Luna,233,Theater Concessionist,480,9,2,2,5
+Olivia Luna,233,Theater Assistant Manager,600,18,5,5,50
+Olivia Luna,233,Fast food Cook,480,10,1,1,3
+Olivia Luna,233,Fast food Cashier,480,14,1,10,15
+Olivia Luna,233,Fast food Manager,600,24,5,20,70
+Olivia Luna,233,Restaurant Casher,600,10,3,3,35
+Olivia Luna,233,Restaurant Cook,720,30,7,15,60
+Olivia Luna,233,Restaurant Manager,720,45,15,25,100
+Ezra Liam,1911,Theater Usher,480,7,1,1,0
+Ezra Liam,1911,Theater Concessionist,480,9,2,2,5
+Ezra Liam,1911,Theater Assistant Manager,600,18,5,5,50
+Ezra Liam,1911,Fast food Cook,480,10,1,1,3
+Ezra Liam,1911,Fast food Cashier,480,14,1,10,15
+Ezra Liam,1911,Fast food Manager,600,24,5,20,70
+Ezra Liam,1911,Restaurant Casher,600,10,3,3,35
+Ezra Liam,1911,Restaurant Cook,720,30,7,15,60
+Ezra Liam,1911,Restaurant Manager,720,45,15,25,100
+Andrew Maya,1635,Theater Usher,480,7,1,1,0
+Andrew Maya,1635,Theater Concessionist,480,9,2,2,5
+Andrew Maya,1635,Theater Assistant Manager,600,18,5,5,50
+Andrew Maya,1635,Fast food Cook,480,10,1,1,3
+Andrew Maya,1635,Fast food Cashier,480,14,1,10,15
+Andrew Maya,1635,Fast food Manager,600,24,5,20,70
+Andrew Maya,1635,Restaurant Casher,600,10,3,3,35
+Andrew Maya,1635,Restaurant Cook,720,30,7,15,60
+Andrew Maya,1635,Restaurant Manager,720,45,15,25,100
+Nova Zoey,697,Theater Usher,480,7,1,1,0
+Nova Zoey,697,Theater Concessionist,480,9,2,2,5
+Nova Zoey,697,Theater Assistant Manager,600,18,5,5,50
+Nova Zoey,697,Fast food Cook,480,10,1,1,3
+Nova Zoey,697,Fast food Cashier,480,14,1,10,15
+Nova Zoey,697,Fast food Manager,600,24,5,20,70
+Nova Zoey,697,Restaurant Casher,600,10,3,3,35
+Nova Zoey,697,Restaurant Cook,720,30,7,15,60
+Nova Zoey,697,Restaurant Manager,720,45,15,25,100
+Henry Levi,1758,Theater Usher,480,7,1,1,0
+Henry Levi,1758,Theater Concessionist,480,9,2,2,5
+Henry Levi,1758,Theater Assistant Manager,600,18,5,5,50
+Henry Levi,1758,Fast food Cook,480,10,1,1,3
+Henry Levi,1758,Fast food Cashier,480,14,1,10,15
+Henry Levi,1758,Fast food Manager,600,24,5,20,70
+Henry Levi,1758,Restaurant Casher,600,10,3,3,35
+Henry Levi,1758,Restaurant Cook,720,30,7,15,60
+Henry Levi,1758,Restaurant Manager,720,45,15,25,100
+Matthew Ryan,114,Theater Usher,480,7,1,1,0
+Matthew Ryan,114,Theater Concessionist,480,9,2,2,5
+Matthew Ryan,114,Theater Assistant Manager,600,18,5,5,50
+Matthew Ryan,114,Fast food Cook,480,10,1,1,3
+Matthew Ryan,114,Fast food Cashier,480,14,1,10,15
+Matthew Ryan,114,Fast food Manager,600,24,5,20,70
+Matthew Ryan,114,Restaurant Casher,600,10,3,3,35
+Matthew Ryan,114,Restaurant Cook,720,30,7,15,60
+Matthew Ryan,114,Restaurant Manager,720,45,15,25,100
+Nova Elena,885,Theater Usher,480,7,1,1,0
+Nova Elena,885,Theater Concessionist,480,9,2,2,5
+Nova Elena,885,Theater Assistant Manager,600,18,5,5,50
+Nova Elena,885,Fast food Cook,480,10,1,1,3
+Nova Elena,885,Fast food Cashier,480,14,1,10,15
+Nova Elena,885,Fast food Manager,600,24,5,20,70
+Nova Elena,885,Restaurant Casher,600,10,3,3,35
+Nova Elena,885,Restaurant Cook,720,30,7,15,60
+Nova Elena,885,Restaurant Manager,720,45,15,25,100
+Sarah Emma,960,Theater Usher,480,7,1,1,0
+Sarah Emma,960,Theater Concessionist,480,9,2,2,5
+Sarah Emma,960,Theater Assistant Manager,600,18,5,5,50
+Sarah Emma,960,Fast food Cook,480,10,1,1,3
+Sarah Emma,960,Fast food Cashier,480,14,1,10,15
+Sarah Emma,960,Fast food Manager,600,24,5,20,70
+Sarah Emma,960,Restaurant Casher,600,10,3,3,35
+Sarah Emma,960,Restaurant Cook,720,30,7,15,60
+Sarah Emma,960,Restaurant Manager,720,45,15,25,100
+Ava Penelope,659,Theater Usher,480,7,1,1,0
+Ava Penelope,659,Theater Concessionist,480,9,2,2,5
+Ava Penelope,659,Theater Assistant Manager,600,18,5,5,50
+Ava Penelope,659,Fast food Cook,480,10,1,1,3
+Ava Penelope,659,Fast food Cashier,480,14,1,10,15
+Ava Penelope,659,Fast food Manager,600,24,5,20,70
+Ava Penelope,659,Restaurant Casher,600,10,3,3,35
+Ava Penelope,659,Restaurant Cook,720,30,7,15,60
+Ava Penelope,659,Restaurant Manager,720,45,15,25,100
+Jayden Madelyn,999,Theater Usher,480,7,1,1,0
+Jayden Madelyn,999,Theater Concessionist,480,9,2,2,5
+Jayden Madelyn,999,Theater Assistant Manager,600,18,5,5,50
+Jayden Madelyn,999,Fast food Cook,480,10,1,1,3
+Jayden Madelyn,999,Fast food Cashier,480,14,1,10,15
+Jayden Madelyn,999,Fast food Manager,600,24,5,20,70
+Jayden Madelyn,999,Restaurant Casher,600,10,3,3,35
+Jayden Madelyn,999,Restaurant Cook,720,30,7,15,60
+Jayden Madelyn,999,Restaurant Manager,720,45,15,25,100
+Grace Evelyn,300,Theater Usher,480,7,1,1,0
+Grace Evelyn,300,Theater Concessionist,480,9,2,2,5
+Grace Evelyn,300,Theater Assistant Manager,600,18,5,5,50
+Grace Evelyn,300,Fast food Cook,480,10,1,1,3
+Grace Evelyn,300,Fast food Cashier,480,14,1,10,15
+Grace Evelyn,300,Fast food Manager,600,24,5,20,70
+Grace Evelyn,300,Restaurant Casher,600,10,3,3,35
+Grace Evelyn,300,Restaurant Cook,720,30,7,15,60
+Grace Evelyn,300,Restaurant Manager,720,45,15,25,100
+Emma Zoey,1297,Theater Usher,480,7,1,1,0
+Emma Zoey,1297,Theater Concessionist,480,9,2,2,5
+Emma Zoey,1297,Theater Assistant Manager,600,18,5,5,50
+Emma Zoey,1297,Fast food Cook,480,10,1,1,3
+Emma Zoey,1297,Fast food Cashier,480,14,1,10,15
+Emma Zoey,1297,Fast food Manager,600,24,5,20,70
+Emma Zoey,1297,Restaurant Casher,600,10,3,3,35
+Emma Zoey,1297,Restaurant Cook,720,30,7,15,60
+Emma Zoey,1297,Restaurant Manager,720,45,15,25,100
+Nicholas Penelope,345,Theater Usher,480,7,1,1,0
+Nicholas Penelope,345,Theater Concessionist,480,9,2,2,5
+Nicholas Penelope,345,Theater Assistant Manager,600,18,5,5,50
+Nicholas Penelope,345,Fast food Cook,480,10,1,1,3
+Nicholas Penelope,345,Fast food Cashier,480,14,1,10,15
+Nicholas Penelope,345,Fast food Manager,600,24,5,20,70
+Nicholas Penelope,345,Restaurant Casher,600,10,3,3,35
+Nicholas Penelope,345,Restaurant Cook,720,30,7,15,60
+Nicholas Penelope,345,Restaurant Manager,720,45,15,25,100
+Matthew Emma,975,Theater Usher,480,7,1,1,0
+Matthew Emma,975,Theater Concessionist,480,9,2,2,5
+Matthew Emma,975,Theater Assistant Manager,600,18,5,5,50
+Matthew Emma,975,Fast food Cook,480,10,1,1,3
+Matthew Emma,975,Fast food Cashier,480,14,1,10,15
+Matthew Emma,975,Fast food Manager,600,24,5,20,70
+Matthew Emma,975,Restaurant Casher,600,10,3,3,35
+Matthew Emma,975,Restaurant Cook,720,30,7,15,60
+Matthew Emma,975,Restaurant Manager,720,45,15,25,100
+Riley Chloe,1522,Theater Usher,480,7,1,1,0
+Riley Chloe,1522,Theater Concessionist,480,9,2,2,5
+Riley Chloe,1522,Theater Assistant Manager,600,18,5,5,50
+Riley Chloe,1522,Fast food Cook,480,10,1,1,3
+Riley Chloe,1522,Fast food Cashier,480,14,1,10,15
+Riley Chloe,1522,Fast food Manager,600,24,5,20,70
+Riley Chloe,1522,Restaurant Casher,600,10,3,3,35
+Riley Chloe,1522,Restaurant Cook,720,30,7,15,60
+Riley Chloe,1522,Restaurant Manager,720,45,15,25,100
+Charlotte Isaac,766,Theater Usher,480,7,1,1,0
+Charlotte Isaac,766,Theater Concessionist,480,9,2,2,5
+Charlotte Isaac,766,Theater Assistant Manager,600,18,5,5,50
+Charlotte Isaac,766,Fast food Cook,480,10,1,1,3
+Charlotte Isaac,766,Fast food Cashier,480,14,1,10,15
+Charlotte Isaac,766,Fast food Manager,600,24,5,20,70
+Charlotte Isaac,766,Restaurant Casher,600,10,3,3,35
+Charlotte Isaac,766,Restaurant Cook,720,30,7,15,60
+Charlotte Isaac,766,Restaurant Manager,720,45,15,25,100
+Zoey Elizabeth,601,Theater Usher,480,7,1,1,0
+Zoey Elizabeth,601,Theater Concessionist,480,9,2,2,5
+Zoey Elizabeth,601,Theater Assistant Manager,600,18,5,5,50
+Zoey Elizabeth,601,Fast food Cook,480,10,1,1,3
+Zoey Elizabeth,601,Fast food Cashier,480,14,1,10,15
+Zoey Elizabeth,601,Fast food Manager,600,24,5,20,70
+Zoey Elizabeth,601,Restaurant Casher,600,10,3,3,35
+Zoey Elizabeth,601,Restaurant Cook,720,30,7,15,60
+Zoey Elizabeth,601,Restaurant Manager,720,45,15,25,100
+Elijah Leah,1316,Theater Usher,480,7,1,1,0
+Elijah Leah,1316,Theater Concessionist,480,9,2,2,5
+Elijah Leah,1316,Theater Assistant Manager,600,18,5,5,50
+Elijah Leah,1316,Fast food Cook,480,10,1,1,3
+Elijah Leah,1316,Fast food Cashier,480,14,1,10,15
+Elijah Leah,1316,Fast food Manager,600,24,5,20,70
+Elijah Leah,1316,Restaurant Casher,600,10,3,3,35
+Elijah Leah,1316,Restaurant Cook,720,30,7,15,60
+Elijah Leah,1316,Restaurant Manager,720,45,15,25,100
+Aiden Christopher,1339,Theater Usher,480,7,1,1,0
+Aiden Christopher,1339,Theater Concessionist,480,9,2,2,5
+Aiden Christopher,1339,Theater Assistant Manager,600,18,5,5,50
+Aiden Christopher,1339,Fast food Cook,480,10,1,1,3
+Aiden Christopher,1339,Fast food Cashier,480,14,1,10,15
+Aiden Christopher,1339,Fast food Manager,600,24,5,20,70
+Aiden Christopher,1339,Restaurant Casher,600,10,3,3,35
+Aiden Christopher,1339,Restaurant Cook,720,30,7,15,60
+Aiden Christopher,1339,Restaurant Manager,720,45,15,25,100
+Mila Sophia,459,Theater Usher,480,7,1,1,0
+Mila Sophia,459,Theater Concessionist,480,9,2,2,5
+Mila Sophia,459,Theater Assistant Manager,600,18,5,5,50
+Mila Sophia,459,Fast food Cook,480,10,1,1,3
+Mila Sophia,459,Fast food Cashier,480,14,1,10,15
+Mila Sophia,459,Fast food Manager,600,24,5,20,70
+Mila Sophia,459,Restaurant Casher,600,10,3,3,35
+Mila Sophia,459,Restaurant Cook,720,30,7,15,60
+Mila Sophia,459,Restaurant Manager,720,45,15,25,100
+John Alice,72,Theater Usher,480,7,1,1,0
+John Alice,72,Theater Concessionist,480,9,2,2,5
+John Alice,72,Theater Assistant Manager,600,18,5,5,50
+John Alice,72,Fast food Cook,480,10,1,1,3
+John Alice,72,Fast food Cashier,480,14,1,10,15
+John Alice,72,Fast food Manager,600,24,5,20,70
+John Alice,72,Restaurant Casher,600,10,3,3,35
+John Alice,72,Restaurant Cook,720,30,7,15,60
+John Alice,72,Restaurant Manager,720,45,15,25,100
+Grayson Elizabeth,139,Theater Usher,480,7,1,1,0
+Grayson Elizabeth,139,Theater Concessionist,480,9,2,2,5
+Grayson Elizabeth,139,Theater Assistant Manager,600,18,5,5,50
+Grayson Elizabeth,139,Fast food Cook,480,10,1,1,3
+Grayson Elizabeth,139,Fast food Cashier,480,14,1,10,15
+Grayson Elizabeth,139,Fast food Manager,600,24,5,20,70
+Grayson Elizabeth,139,Restaurant Casher,600,10,3,3,35
+Grayson Elizabeth,139,Restaurant Cook,720,30,7,15,60
+Grayson Elizabeth,139,Restaurant Manager,720,45,15,25,100
+Noah Isabella,120,Theater Usher,480,7,1,1,0
+Noah Isabella,120,Theater Concessionist,480,9,2,2,5
+Noah Isabella,120,Theater Assistant Manager,600,18,5,5,50
+Noah Isabella,120,Fast food Cook,480,10,1,1,3
+Noah Isabella,120,Fast food Cashier,480,14,1,10,15
+Noah Isabella,120,Fast food Manager,600,24,5,20,70
+Noah Isabella,120,Restaurant Casher,600,10,3,3,35
+Noah Isabella,120,Restaurant Cook,720,30,7,15,60
+Noah Isabella,120,Restaurant Manager,720,45,15,25,100
+Nathan Matthew,181,Theater Usher,480,7,1,1,0
+Nathan Matthew,181,Theater Concessionist,480,9,2,2,5
+Nathan Matthew,181,Theater Assistant Manager,600,18,5,5,50
+Nathan Matthew,181,Fast food Cook,480,10,1,1,3
+Nathan Matthew,181,Fast food Cashier,480,14,1,10,15
+Nathan Matthew,181,Fast food Manager,600,24,5,20,70
+Nathan Matthew,181,Restaurant Casher,600,10,3,3,35
+Nathan Matthew,181,Restaurant Cook,720,30,7,15,60
+Nathan Matthew,181,Restaurant Manager,720,45,15,25,100
+Wyatt Aubrey,1034,Theater Usher,480,7,1,1,0
+Wyatt Aubrey,1034,Theater Concessionist,480,9,2,2,5
+Wyatt Aubrey,1034,Theater Assistant Manager,600,18,5,5,50
+Wyatt Aubrey,1034,Fast food Cook,480,10,1,1,3
+Wyatt Aubrey,1034,Fast food Cashier,480,14,1,10,15
+Wyatt Aubrey,1034,Fast food Manager,600,24,5,20,70
+Wyatt Aubrey,1034,Restaurant Casher,600,10,3,3,35
+Wyatt Aubrey,1034,Restaurant Cook,720,30,7,15,60
+Wyatt Aubrey,1034,Restaurant Manager,720,45,15,25,100
+Jayden Stella,928,Theater Usher,480,7,1,1,0
+Jayden Stella,928,Theater Concessionist,480,9,2,2,5
+Jayden Stella,928,Theater Assistant Manager,600,18,5,5,50
+Jayden Stella,928,Fast food Cook,480,10,1,1,3
+Jayden Stella,928,Fast food Cashier,480,14,1,10,15
+Jayden Stella,928,Fast food Manager,600,24,5,20,70
+Jayden Stella,928,Restaurant Casher,600,10,3,3,35
+Jayden Stella,928,Restaurant Cook,720,30,7,15,60
+Jayden Stella,928,Restaurant Manager,720,45,15,25,100
+Elena Anthony,905,Theater Usher,480,7,1,1,0
+Elena Anthony,905,Theater Concessionist,480,9,2,2,5
+Elena Anthony,905,Theater Assistant Manager,600,18,5,5,50
+Elena Anthony,905,Fast food Cook,480,10,1,1,3
+Elena Anthony,905,Fast food Cashier,480,14,1,10,15
+Elena Anthony,905,Fast food Manager,600,24,5,20,70
+Elena Anthony,905,Restaurant Casher,600,10,3,3,35
+Elena Anthony,905,Restaurant Cook,720,30,7,15,60
+Elena Anthony,905,Restaurant Manager,720,45,15,25,100
+Andrew Aubrey,752,Theater Usher,480,7,1,1,0
+Andrew Aubrey,752,Theater Concessionist,480,9,2,2,5
+Andrew Aubrey,752,Theater Assistant Manager,600,18,5,5,50
+Andrew Aubrey,752,Fast food Cook,480,10,1,1,3
+Andrew Aubrey,752,Fast food Cashier,480,14,1,10,15
+Andrew Aubrey,752,Fast food Manager,600,24,5,20,70
+Andrew Aubrey,752,Restaurant Casher,600,10,3,3,35
+Andrew Aubrey,752,Restaurant Cook,720,30,7,15,60
+Andrew Aubrey,752,Restaurant Manager,720,45,15,25,100
+Sophie Scarlett,371,Theater Usher,480,7,1,1,0
+Sophie Scarlett,371,Theater Concessionist,480,9,2,2,5
+Sophie Scarlett,371,Theater Assistant Manager,600,18,5,5,50
+Sophie Scarlett,371,Fast food Cook,480,10,1,1,3
+Sophie Scarlett,371,Fast food Cashier,480,14,1,10,15
+Sophie Scarlett,371,Fast food Manager,600,24,5,20,70
+Sophie Scarlett,371,Restaurant Casher,600,10,3,3,35
+Sophie Scarlett,371,Restaurant Cook,720,30,7,15,60
+Sophie Scarlett,371,Restaurant Manager,720,45,15,25,100
+Audrey Asher,338,Theater Usher,480,7,1,1,0
+Audrey Asher,338,Theater Concessionist,480,9,2,2,5
+Audrey Asher,338,Theater Assistant Manager,600,18,5,5,50
+Audrey Asher,338,Fast food Cook,480,10,1,1,3
+Audrey Asher,338,Fast food Cashier,480,14,1,10,15
+Audrey Asher,338,Fast food Manager,600,24,5,20,70
+Audrey Asher,338,Restaurant Casher,600,10,3,3,35
+Audrey Asher,338,Restaurant Cook,720,30,7,15,60
+Audrey Asher,338,Restaurant Manager,720,45,15,25,100
+Matthew Mason,93,Theater Usher,480,7,1,1,0
+Matthew Mason,93,Theater Concessionist,480,9,2,2,5
+Matthew Mason,93,Theater Assistant Manager,600,18,5,5,50
+Matthew Mason,93,Fast food Cook,480,10,1,1,3
+Matthew Mason,93,Fast food Cashier,480,14,1,10,15
+Matthew Mason,93,Fast food Manager,600,24,5,20,70
+Matthew Mason,93,Restaurant Casher,600,10,3,3,35
+Matthew Mason,93,Restaurant Cook,720,30,7,15,60
+Matthew Mason,93,Restaurant Manager,720,45,15,25,100
+Paisley Olivia,693,Theater Usher,480,7,1,1,0
+Paisley Olivia,693,Theater Concessionist,480,9,2,2,5
+Paisley Olivia,693,Theater Assistant Manager,600,18,5,5,50
+Paisley Olivia,693,Fast food Cook,480,10,1,1,3
+Paisley Olivia,693,Fast food Cashier,480,14,1,10,15
+Paisley Olivia,693,Fast food Manager,600,24,5,20,70
+Paisley Olivia,693,Restaurant Casher,600,10,3,3,35
+Paisley Olivia,693,Restaurant Cook,720,30,7,15,60
+Paisley Olivia,693,Restaurant Manager,720,45,15,25,100
+Julian Ellie,281,Theater Usher,480,7,1,1,0
+Julian Ellie,281,Theater Concessionist,480,9,2,2,5
+Julian Ellie,281,Theater Assistant Manager,600,18,5,5,50
+Julian Ellie,281,Fast food Cook,480,10,1,1,3
+Julian Ellie,281,Fast food Cashier,480,14,1,10,15
+Julian Ellie,281,Fast food Manager,600,24,5,20,70
+Julian Ellie,281,Restaurant Casher,600,10,3,3,35
+Julian Ellie,281,Restaurant Cook,720,30,7,15,60
+Julian Ellie,281,Restaurant Manager,720,45,15,25,100
+Anthony Eli,273,Theater Usher,480,7,1,1,0
+Anthony Eli,273,Theater Concessionist,480,9,2,2,5
+Anthony Eli,273,Theater Assistant Manager,600,18,5,5,50
+Anthony Eli,273,Fast food Cook,480,10,1,1,3
+Anthony Eli,273,Fast food Cashier,480,14,1,10,15
+Anthony Eli,273,Fast food Manager,600,24,5,20,70
+Anthony Eli,273,Restaurant Casher,600,10,3,3,35
+Anthony Eli,273,Restaurant Cook,720,30,7,15,60
+Anthony Eli,273,Restaurant Manager,720,45,15,25,100
+Emma Michael,463,Theater Usher,480,7,1,1,0
+Emma Michael,463,Theater Concessionist,480,9,2,2,5
+Emma Michael,463,Theater Assistant Manager,600,18,5,5,50
+Emma Michael,463,Fast food Cook,480,10,1,1,3
+Emma Michael,463,Fast food Cashier,480,14,1,10,15
+Emma Michael,463,Fast food Manager,600,24,5,20,70
+Emma Michael,463,Restaurant Casher,600,10,3,3,35
+Emma Michael,463,Restaurant Cook,720,30,7,15,60
+Emma Michael,463,Restaurant Manager,720,45,15,25,100
+Amelia Olivia,697,Theater Usher,480,7,1,1,0
+Amelia Olivia,697,Theater Concessionist,480,9,2,2,5
+Amelia Olivia,697,Theater Assistant Manager,600,18,5,5,50
+Amelia Olivia,697,Fast food Cook,480,10,1,1,3
+Amelia Olivia,697,Fast food Cashier,480,14,1,10,15
+Amelia Olivia,697,Fast food Manager,600,24,5,20,70
+Amelia Olivia,697,Restaurant Casher,600,10,3,3,35
+Amelia Olivia,697,Restaurant Cook,720,30,7,15,60
+Amelia Olivia,697,Restaurant Manager,720,45,15,25,100
+Maya Aubrey,1373,Theater Usher,480,7,1,1,0
+Maya Aubrey,1373,Theater Concessionist,480,9,2,2,5
+Maya Aubrey,1373,Theater Assistant Manager,600,18,5,5,50
+Maya Aubrey,1373,Fast food Cook,480,10,1,1,3
+Maya Aubrey,1373,Fast food Cashier,480,14,1,10,15
+Maya Aubrey,1373,Fast food Manager,600,24,5,20,70
+Maya Aubrey,1373,Restaurant Casher,600,10,3,3,35
+Maya Aubrey,1373,Restaurant Cook,720,30,7,15,60
+Maya Aubrey,1373,Restaurant Manager,720,45,15,25,100
+Alice Jackson,1942,Theater Usher,480,7,1,1,0
+Alice Jackson,1942,Theater Concessionist,480,9,2,2,5
+Alice Jackson,1942,Theater Assistant Manager,600,18,5,5,50
+Alice Jackson,1942,Fast food Cook,480,10,1,1,3
+Alice Jackson,1942,Fast food Cashier,480,14,1,10,15
+Alice Jackson,1942,Fast food Manager,600,24,5,20,70
+Alice Jackson,1942,Restaurant Casher,600,10,3,3,35
+Alice Jackson,1942,Restaurant Cook,720,30,7,15,60
+Alice Jackson,1942,Restaurant Manager,720,45,15,25,100
+Camila Michael,258,Theater Usher,480,7,1,1,0
+Camila Michael,258,Theater Concessionist,480,9,2,2,5
+Camila Michael,258,Theater Assistant Manager,600,18,5,5,50
+Camila Michael,258,Fast food Cook,480,10,1,1,3
+Camila Michael,258,Fast food Cashier,480,14,1,10,15
+Camila Michael,258,Fast food Manager,600,24,5,20,70
+Camila Michael,258,Restaurant Casher,600,10,3,3,35
+Camila Michael,258,Restaurant Cook,720,30,7,15,60
+Camila Michael,258,Restaurant Manager,720,45,15,25,100
+Isaac Elijah,981,Theater Usher,480,7,1,1,0
+Isaac Elijah,981,Theater Concessionist,480,9,2,2,5
+Isaac Elijah,981,Theater Assistant Manager,600,18,5,5,50
+Isaac Elijah,981,Fast food Cook,480,10,1,1,3
+Isaac Elijah,981,Fast food Cashier,480,14,1,10,15
+Isaac Elijah,981,Fast food Manager,600,24,5,20,70
+Isaac Elijah,981,Restaurant Casher,600,10,3,3,35
+Isaac Elijah,981,Restaurant Cook,720,30,7,15,60
+Isaac Elijah,981,Restaurant Manager,720,45,15,25,100
+Savannah Riley,833,Theater Usher,480,7,1,1,0
+Savannah Riley,833,Theater Concessionist,480,9,2,2,5
+Savannah Riley,833,Theater Assistant Manager,600,18,5,5,50
+Savannah Riley,833,Fast food Cook,480,10,1,1,3
+Savannah Riley,833,Fast food Cashier,480,14,1,10,15
+Savannah Riley,833,Fast food Manager,600,24,5,20,70
+Savannah Riley,833,Restaurant Casher,600,10,3,3,35
+Savannah Riley,833,Restaurant Cook,720,30,7,15,60
+Savannah Riley,833,Restaurant Manager,720,45,15,25,100
+Paisley Landon,1674,Theater Usher,480,7,1,1,0
+Paisley Landon,1674,Theater Concessionist,480,9,2,2,5
+Paisley Landon,1674,Theater Assistant Manager,600,18,5,5,50
+Paisley Landon,1674,Fast food Cook,480,10,1,1,3
+Paisley Landon,1674,Fast food Cashier,480,14,1,10,15
+Paisley Landon,1674,Fast food Manager,600,24,5,20,70
+Paisley Landon,1674,Restaurant Casher,600,10,3,3,35
+Paisley Landon,1674,Restaurant Cook,720,30,7,15,60
+Paisley Landon,1674,Restaurant Manager,720,45,15,25,100
+James Ethan,1580,Theater Usher,480,7,1,1,0
+James Ethan,1580,Theater Concessionist,480,9,2,2,5
+James Ethan,1580,Theater Assistant Manager,600,18,5,5,50
+James Ethan,1580,Fast food Cook,480,10,1,1,3
+James Ethan,1580,Fast food Cashier,480,14,1,10,15
+James Ethan,1580,Fast food Manager,600,24,5,20,70
+James Ethan,1580,Restaurant Casher,600,10,3,3,35
+James Ethan,1580,Restaurant Cook,720,30,7,15,60
+James Ethan,1580,Restaurant Manager,720,45,15,25,100
+Alexander Luke,682,Theater Usher,480,7,1,1,0
+Alexander Luke,682,Theater Concessionist,480,9,2,2,5
+Alexander Luke,682,Theater Assistant Manager,600,18,5,5,50
+Alexander Luke,682,Fast food Cook,480,10,1,1,3
+Alexander Luke,682,Fast food Cashier,480,14,1,10,15
+Alexander Luke,682,Fast food Manager,600,24,5,20,70
+Alexander Luke,682,Restaurant Casher,600,10,3,3,35
+Alexander Luke,682,Restaurant Cook,720,30,7,15,60
+Alexander Luke,682,Restaurant Manager,720,45,15,25,100
+Oliver Hudson,1156,Theater Usher,480,7,1,1,0
+Oliver Hudson,1156,Theater Concessionist,480,9,2,2,5
+Oliver Hudson,1156,Theater Assistant Manager,600,18,5,5,50
+Oliver Hudson,1156,Fast food Cook,480,10,1,1,3
+Oliver Hudson,1156,Fast food Cashier,480,14,1,10,15
+Oliver Hudson,1156,Fast food Manager,600,24,5,20,70
+Oliver Hudson,1156,Restaurant Casher,600,10,3,3,35
+Oliver Hudson,1156,Restaurant Cook,720,30,7,15,60
+Oliver Hudson,1156,Restaurant Manager,720,45,15,25,100
+Julian Olivia,972,Theater Usher,480,7,1,1,0
+Julian Olivia,972,Theater Concessionist,480,9,2,2,5
+Julian Olivia,972,Theater Assistant Manager,600,18,5,5,50
+Julian Olivia,972,Fast food Cook,480,10,1,1,3
+Julian Olivia,972,Fast food Cashier,480,14,1,10,15
+Julian Olivia,972,Fast food Manager,600,24,5,20,70
+Julian Olivia,972,Restaurant Casher,600,10,3,3,35
+Julian Olivia,972,Restaurant Cook,720,30,7,15,60
+Julian Olivia,972,Restaurant Manager,720,45,15,25,100
+Isabella Jayden,1610,Theater Usher,480,7,1,1,0
+Isabella Jayden,1610,Theater Concessionist,480,9,2,2,5
+Isabella Jayden,1610,Theater Assistant Manager,600,18,5,5,50
+Isabella Jayden,1610,Fast food Cook,480,10,1,1,3
+Isabella Jayden,1610,Fast food Cashier,480,14,1,10,15
+Isabella Jayden,1610,Fast food Manager,600,24,5,20,70
+Isabella Jayden,1610,Restaurant Casher,600,10,3,3,35
+Isabella Jayden,1610,Restaurant Cook,720,30,7,15,60
+Isabella Jayden,1610,Restaurant Manager,720,45,15,25,100
+Darryl Jones,35,Theater Usher,480,7,1,1,0
+Darryl Jones,35,Theater Concessionist,480,9,2,2,5
+Darryl Jones,35,Theater Assistant Manager,600,18,5,5,50
+Darryl Jones,35,Fast food Cook,480,10,1,1,3
+Darryl Jones,35,Fast food Cashier,480,14,1,10,15
+Darryl Jones,35,Fast food Manager,600,24,5,20,70
+Darryl Jones,35,Restaurant Casher,600,10,3,3,35
+Darryl Jones,35,Restaurant Cook,720,30,7,15,60
+Darryl Jones,35,Restaurant Manager,720,45,15,25,100
+James A. Jane,35,Theater Usher,480,7,1,1,0
+James A. Jane,35,Theater Concessionist,480,9,2,2,5
+James A. Jane,35,Theater Assistant Manager,600,18,5,5,50
+James A. Jane,35,Fast food Cook,480,10,1,1,3
+James A. Jane,35,Fast food Cashier,480,14,1,10,15
+James A. Jane,35,Fast food Manager,600,24,5,20,70
+James A. Jane,35,Restaurant Casher,600,10,3,3,35
+James A. Jane,35,Restaurant Cook,720,30,7,15,60
+James A. Jane,35,Restaurant Manager,720,45,15,25,100
+Makiya Tipton,30,Theater Usher,480,7,1,1,0
+Makiya Tipton,30,Theater Concessionist,480,9,2,2,5
+Makiya Tipton,30,Theater Assistant Manager,600,18,5,5,50
+Makiya Tipton,30,Fast food Cook,480,10,1,1,3
+Makiya Tipton,30,Fast food Cashier,480,14,1,10,15
+Makiya Tipton,30,Fast food Manager,600,24,5,20,70
+Makiya Tipton,30,Restaurant Casher,600,10,3,3,35
+Makiya Tipton,30,Restaurant Cook,720,30,7,15,60
+Makiya Tipton,30,Restaurant Manager,720,45,15,25,100
+Siena Wilson,40,Theater Usher,480,7,1,1,0
+Siena Wilson,40,Theater Concessionist,480,9,2,2,5
+Siena Wilson,40,Theater Assistant Manager,600,18,5,5,50
+Siena Wilson,40,Fast food Cook,480,10,1,1,3
+Siena Wilson,40,Fast food Cashier,480,14,1,10,15
+Siena Wilson,40,Fast food Manager,600,24,5,20,70
+Siena Wilson,40,Restaurant Casher,600,10,3,3,35
+Siena Wilson,40,Restaurant Cook,720,30,7,15,60
+Siena Wilson,40,Restaurant Manager,720,45,15,25,100
+Noelle Wells,40,Theater Usher,480,7,1,1,0
+Noelle Wells,40,Theater Concessionist,480,9,2,2,5
+Noelle Wells,40,Theater Assistant Manager,600,18,5,5,50
+Noelle Wells,40,Fast food Cook,480,10,1,1,3
+Noelle Wells,40,Fast food Cashier,480,14,1,10,15
+Noelle Wells,40,Fast food Manager,600,24,5,20,70
+Noelle Wells,40,Restaurant Casher,600,10,3,3,35
+Noelle Wells,40,Restaurant Cook,720,30,7,15,60
+Noelle Wells,40,Restaurant Manager,720,45,15,25,100
+Eric Pack,150,Theater Usher,480,7,1,1,0
+Eric Pack,150,Theater Concessionist,480,9,2,2,5
+Eric Pack,150,Theater Assistant Manager,600,18,5,5,50
+Eric Pack,150,Fast food Cook,480,10,1,1,3
+Eric Pack,150,Fast food Cashier,480,14,1,10,15
+Eric Pack,150,Fast food Manager,600,24,5,20,70
+Eric Pack,150,Restaurant Casher,600,10,3,3,35
+Eric Pack,150,Restaurant Cook,720,30,7,15,60
+Eric Pack,150,Restaurant Manager,720,45,15,25,100
+Danager,2000,Theater Usher,480,7,1,1,0
+Danager,2000,Theater Concessionist,480,9,2,2,5
+Danager,2000,Theater Assistant Manager,600,18,5,5,50
+Danager,2000,Fast food Cook,480,10,1,1,3
+Danager,2000,Fast food Cashier,480,14,1,10,15
+Danager,2000,Fast food Manager,600,24,5,20,70
+Danager,2000,Restaurant Casher,600,10,3,3,35
+Danager,2000,Restaurant Cook,720,30,7,15,60
+Danager,2000,Restaurant Manager,720,45,15,25,100

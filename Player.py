@@ -6,6 +6,7 @@ class Player:
         self.alive = True
         self.clock = time()
         self.job = None
+        self.skill = -1
     
     def get_wallet(self):
         return self.wallet
@@ -21,3 +22,9 @@ class Player:
     
     def set_job(self, job):
         self.job = job
+        
+    def increase_skill(self, skill):
+        self.skill += skill
+        
+    def get_skill_level(self):
+        return self.skill

@@ -123,7 +123,7 @@ while running and player.alive:
     match(user_input.lower()):
         case 'gamble':
             while gamble():''
-        case 'Work':
+        case 'work':
             while working(): ''
         case 'pay':
             pay_debt()
