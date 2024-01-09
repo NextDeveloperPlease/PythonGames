@@ -122,8 +122,10 @@ while running and player.alive:
     user_input = input("1. Gamble\t\t2. Work\n3. Pay your debt\t4. Get a loan\n5. Rob someone?\t\t6. Menu\n")
     match(user_input.lower()):
         case 'gamble':
+            st.clear_screen()
             while gamble():''
         case 'work':
+            st.clear_screen()
             while working(): ''
         case 'pay':
             pay_debt()
