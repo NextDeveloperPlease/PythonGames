@@ -119,7 +119,7 @@ print("You must make the right choices and end up rich or die in a heap in an al
 print("You start out $10,000 in debt and have a wicked hangover")
 player = Player()
 while running and player.alive:
-    user_input = input("1. Gamble\t2. Work\n3. Pay your debt 4. Get a loan\n5. Rob someone?\n")
+    user_input = input("1. Gamble\t\t2. Work\n3. Pay your debt\t4. Get a loan\n5. Rob someone?\t\t6. Menu\n")
     match(user_input.lower()):
         case 'gamble':
             while gamble():''

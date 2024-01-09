@@ -36,6 +36,18 @@ def work(player):
                     actual_jobs = possible_jobs.sample(10)
                 print(actual_jobs)
                 
+                user_input = input("Enter the name of the Boss you want to work for: ")
+                name_matches = actual_jobs['name'].str.contains(user_input, case=False)
+                potential_jobs = actual_jobs[name_matches]
+                print(potential_jobs)
+                
+                user_input = input("Enter the name of the job you want to work for: ")
+                name_matches = potential_jobs['job'].str.contains(user_input, case=False)
+                selected_job = potential_jobs[name_matches]
+                print(selected_job)
+                player.set_job(selected_job)
+                    
+                
             case _: 
                 print("Sorry, I didn't catch that.")
                 getting_input = True

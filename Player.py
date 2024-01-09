@@ -6,7 +6,13 @@ class Player:
         self.alive = True
         self.clock = time()
         self.job = None
-        self.skill = -1
+        self.skill = 2000
+        self.boss_name = None
+        self.job_name = None
+        self.duration = None
+        self.pay = None
+        self.rapport_increased = None
+        self.skill_increased = None
     
     def get_wallet(self):
         return self.wallet
@@ -20,8 +26,14 @@ class Player:
     def get_job(self):
         return self.job
     
-    def set_job(self, job):
+    def set_job(self, job): #name,rapport_required,job,duration,pay,rapport,skill_increased,skill_required
         self.job = job
+        self.boss_name = job['name']
+        self.job_name = job['job']
+        self.duration = job['duration']
+        self.pay = job['pay']
+        self.rapport_increased = job['rapport']
+        self.skill_increased = job['skill_increased']
         
     def increase_skill(self, skill):
         self.skill += skill
