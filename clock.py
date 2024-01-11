@@ -10,9 +10,14 @@ class time:
         hour = duration // 60
         minutes = duration % 60
         return [hour, minutes]
+    
+    def convert_to_hours(duration):
+        hour = duration // 60
+        minutes = (duration % 60) / 60
+        return hour + minutes
 
     def update(self, duration): #duration is in minutes
         self.hour = self.hour + duration // 60
         self.minutes = (self.minutes + duration) % 60
-        print(f'Hours: {self.hour}\nMinutes: {self.minutes}')
+        #print(f'Hours: {self.hour}\nMinutes: {self.minutes}')
     

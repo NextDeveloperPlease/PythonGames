@@ -1,5 +1,6 @@
 import pandas as pd
 import Settings as st
+from Clock import time
 
 root_dir = st.get_root()
 
@@ -9,18 +10,22 @@ def work(player):
     '''get a new job with higher skills, higher promotions with rapport'''
     user_input = None
     getting_input = True
-    player_job = player.get_player_info('job')
     jobs = pd.read_csv(root_dir + '/Jobs_with_bosses.csv')
     while getting_input:
         user_input = input("1. (Work)\t2. Ask for a (promotion)\n3. (Quit) and cuss out the boss 4. (Apply) for new job.\n").lower()
         getting_input = False
         match(user_input):
             case 'work':
-                if not isinstance(player.get_job(), pd.DataFrame):
+                if not isinstance(player.get_player_info('job'), pd.DataFrame):
                     print("You don't have a job, you bum!")
                 else: 
-                    player.add(player_job['pay'])
-                    player.clock.update(player_job['duration'])
+                    work_time = time.convert_to_hours(player.get_player_info('duration'))
+                    pay = player.get_player_info('pay') * work_time
+                    player.add(pay)
+                    player.clock.update(player.get_player_info('duration'))
+                    print(f"You worked {work_time} hours and made ${pay}")
+                    print(f"Your total wallet balance is now ${player.get_player_info('wallet')}")
+                    st.wait()
                     
             case 'promotion': ''
             case 'quit': 
