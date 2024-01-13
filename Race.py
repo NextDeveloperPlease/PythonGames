@@ -21,15 +21,19 @@ def race(player):
     betting = True
     bet = 0
     while betting:
-        bet = int(input("Enter your bet: "))
-        if bet > player.get_wallet():
-            print("You crook!")
-            amount_lost = np.random.randint(1, 20)
-            print(f"You lose: {amount_lost}")
-            player.spend(amount_lost)
-            print(player.get_wallet())
-        else:
-            betting = False
+        bet = (input("Enter your bet: "))
+        try:
+            bet = int(bet)
+            if bet > player.get_player_info('wallet'):
+                print("You crook!")
+                amount_lost = np.random.randint(1, 20)
+                print(f"You lose: {amount_lost}")
+                player.spend(amount_lost)
+                print(player.get_player_info('wallet'))
+            else:
+                betting = False
+        except:
+            print("That isn't a bet. Try again")
         
     #print(winner)
     user_input = input("Choose one of the dogs: ").lower()
@@ -40,9 +44,9 @@ def race(player):
     if user_input == winner.lower():
         print("Congratulations!")
         player.add(bet)
-        print(player.get_wallet())
+        print(player.get_player_info('wallet'))
     else:
         print("Better luck next time.")
         player.spend(bet)
-        print(player.get_wallet())
+        print(player.get_player_info('wallet'))
     return True

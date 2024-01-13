@@ -13,12 +13,12 @@ def russian(player):
     bet = 0
     while betting:
         bet = int(input("Enter your bet: "))
-        if bet > player.get_wallet():
+        if bet > player.get_player_info('wallet'):
             print("You crook!")
             amount_lost = np.random.randint(1, 20)
             print(f"You lose: {amount_lost}")
             player.spend(amount_lost)
-            print(player.get_wallet())
+            print(player.get_player_info('wallet'))
         else:
             betting = False
     
@@ -38,7 +38,7 @@ def play(player, revolver, bet):
     else:
         print("Congratulations!")
         player.add(bet)
-        print(player.get_wallet())
+        print(player.get_player_info('wallet'))
         revolver.remove('safe')
         print(revolver)
         return True

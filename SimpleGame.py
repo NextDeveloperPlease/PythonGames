@@ -1,9 +1,9 @@
-import numpy as np
 from Race import *
 from Fight import *
 from Player import Player
 from RussianRoulette import *
 from Work import *
+import numpy as np
 
 running = True
 
@@ -17,7 +17,7 @@ running = True
     
 def gamble():
     if player.alive:
-        user_input = input("\n1. Dog Race\t2. Dog Fight\n3. Roulette\t4. Russian Roulette\nType 'exit' to leave the casino. What would you like to do?\n")
+        user_input = input("1. Dog Race\t2. Dog Fight\n3. Roulette\t4. Russian Roulette\nType 'exit' to leave the casino. What would you like to do?\n")
         match(user_input.lower()):
             case 'race': # This allows you to pick a dog for a race.
                 race(player)
@@ -32,28 +32,6 @@ def gamble():
             case 'quit':
                 st.quit()
         return True
-
-#def work():
-    '''Work can escalate with your skill.'''
-    '''Start as a horse manure worker.'''
-    '''Get a position as horse hoover.'''
-    '''Option to buy a horse (most of your money). If you gamble, it is worth it. Only way to progress'''
-    '''Race your horse.'''
-    '''Buy more horses and rig races'''
-    
-    #user_input = input("\n1. Work\t2. Request promotion\n3. Get paycheck\nWhat would you like to do?\n")
-    #match(user_input.lower):
-    #    case 'work': # Increments the clock by a fixed amount, adds funds to paycheck, increases boss's happiness (If done too many times, it will kill you.)
-    #        ""
-    #    case 'promotion': # Promotion if high enough happiness, otherwise boss's happiness decreases
-    #        ""
-    #    case 'paycheck': # If day matches payday, add money from paycheck to wallet (taxes aren't payed by the employee)
-    #        ""
-    #    case 'exit':
-    #        return False
-    #    case 'quit':
-    #        player.quit()
-    #return True
     
 def working():
     return work(player)
@@ -65,7 +43,7 @@ def pay_debt():
         return False
     elif user_input == 'quit':
         st.quit()
-    try: # Checks if the user input is an integer, if so, add it to the user's bank account. 
+    try: # Checks if the user input is an integer, if so, add it to the user's debt account. 
         user_input = int(user_input)
     except ValueError:
         print("Sorry, that wasn't an acceptable answer.")
