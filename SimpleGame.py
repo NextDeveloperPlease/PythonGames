@@ -3,7 +3,6 @@ from Fight import *
 from Player import Player
 from RussianRoulette import *
 from Work import *
-import numpy as np
 
 running = True
 

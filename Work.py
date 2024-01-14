@@ -38,26 +38,39 @@ def work(player):
                     st.wait()
                     
             case 'apply':
+                not_selected = True
                 possible_jobs = jobs[jobs['skill_required'] <= player.get_player_info('skill')]
-                actual_jobs = None
-                if len(possible_jobs) <= 0:
-                    print("I don't know how you did it, but you did it.\nThere are no possible jobs for you")
-                elif len(possible_jobs) < 10:
-                    actual_jobs = possible_jobs
-                else:
-                    actual_jobs = possible_jobs.sample(10)
-                    #duplicate_names = actual_jobs[actual_jobs.duplicated('name')]['name']
-                    #actual_jobs = actual_jobs[~actual_jobs.duplicated('name', keep='first')]
-                print(actual_jobs)
-                
-                user_input = input("Enter the full name of the Boss you want to work for: ")
-                name_matches = actual_jobs['name'].str.contains(user_input, case=False)
-                potential_jobs = actual_jobs[name_matches]
-                print(potential_jobs)
-                
-                user_input = input("Enter the full name of the job you want to work for: ")
-                name_matches = potential_jobs['job'].str.contains(user_input, case=False)
-                selected_job = potential_jobs[name_matches]
+                while not_selected:
+                    actual_jobs = None
+                    if len(possible_jobs) <= 0:
+                        print("I don't know how you did it, but you did it.\nThere are no possible jobs for you.")
+                    elif len(possible_jobs) < 10:
+                        actual_jobs = possible_jobs
+                    else:
+                        actual_jobs = possible_jobs.sample(10)
+                    print(actual_jobs)
+                    
+                    user_input = input("Enter the full name of the Boss you want to work for: ")
+                    name_matches = actual_jobs['name'].str.contains(user_input, case=False)
+                    potential_jobs = actual_jobs[name_matches]
+                    print(potential_jobs)
+                    
+                    user_input = input("Enter the full name of the job you want to work for: ")
+                    name_matches = potential_jobs['job'].str.contains(user_input, case=False)
+                    selected_job = potential_jobs[name_matches]
+                    
+                    if selected_job.shape[0] > 1:
+                        print('Sorry, you have selected more than one job.')
+                        print(selected_job)
+                        not_selected = True
+                        st.wait()
+                    elif selected_job.shape[0] < 1:
+                        print('Sorry, you have selected less than one job.')
+                        print(selected_job)
+                        not_selected = True
+                        st.wait()
+                    else:
+                        not_selected = False
                 player.set_job(selected_job)
                 st.wait()
                     
