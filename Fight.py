@@ -3,6 +3,8 @@ import pandas as pd
 import Settings as st
 
 root_dir = st.get_root()
+mature = st.mature
+
 def fight(player):
     dogs = pd.read_csv(root_dir + '/Dogs.csv')
     dogs = dogs.columns

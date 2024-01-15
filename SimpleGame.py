@@ -3,8 +3,10 @@ from Fight import *
 from Player import Player
 from RussianRoulette import *
 from Work import *
+import Settings as st
 
 running = True
+mature = True
 
 '''Six Options
     Gamble
@@ -91,9 +93,25 @@ def rob():
 def menu(): # allows the user to check their money and items.
     ''
 
-print("Welcome to Sin City!\nPick your poison and let all your vice's live wild!")
-print("You must make the right choices and end up rich or die in a heap in an alley.\nYour choices are free.")
-print("You start out $10,000 in debt and have a wicked hangover")
+st.mature = input("Would you like mature settings?\nYes or no: ").lower() == 'yes'
+
+city = ''
+vice = ''
+negative_outcome = ''
+hangover = ''
+if st.mature:
+    city = 'Sin City'
+    vice = "vice's"
+    negative_outcome = 'die in a heap in an alley'
+    hangover = ' and have a wicked hangover'
+else:
+    city = 'Heaven City'
+    vice = "passion's"
+    negative_outcome = 'wind up poor and in the dog house'
+
+print(f"Welcome to {city}!\nPick your poison and let all your {vice} live wild!")
+print(f"You must make the right choices and end up rich or {negative_outcome}.\nYour choices are free.")
+print(f"You start out $10,000 in debt{hangover}.")
 player = Player()
 while running and player.alive:
     user_input = input("1. Gamble\t\t2. Work\n3. Pay your debt\t4. Get a loan\n5. Rob someone?\t\t6. Menu\n")

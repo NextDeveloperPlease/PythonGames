@@ -1,6 +1,9 @@
 import numpy as np
 import pandas as pd
 import Settings as st
+
+mature = st.mature
+
 def russian(player):
     reset_revolver=['safe', 'safe', 'safe', 'safe', 'safe', 'death']
     revolver = reset_revolver

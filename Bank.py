@@ -1,3 +1,9 @@
+import Settings as st
+
+mature = st.mature
+
+'''Maybe rewrite this'''
+
 class Bank:
     def __init__(self, name, rate):
         self.name = name
