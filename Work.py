@@ -1,6 +1,7 @@
 import pandas as pd
 import Settings as st
 from Clock import time
+import numpy as np
 
 root_dir = st.get_root()
 
@@ -11,13 +12,20 @@ def work(player):
     user_input = None
     getting_input = True
     jobs = pd.read_csv(root_dir + '/Jobs_with_bosses.csv')
+    
+    cuss = ''
+    if st.mature:
+        cuss = 'cuss out'
+    else:
+        cuss = 'yell at'
+    
     while getting_input:
-        user_input = input("1. (Work)\t2. Ask for a (promotion)\n3. (Quit) and cuss out the boss 4. (Apply) for new job.\n").lower()
+        user_input = input(f"1. (Work)\t2. Ask for a (promotion)\n3. (Quit) and {cuss} the boss 4. (Apply) for new job.\n").lower()
         getting_input = False
         match(user_input):
             case 'work':
                 if not isinstance(player.get_player_info('job'), pd.DataFrame):
-                    print("You don't have a job, you bum!")
+                    print(f"You don't have a job, you {st.get_insult()}!")
                 else: 
                     work_time = time.convert_to_hours(player.get_player_info('duration'))
                     pay = player.get_player_info('pay') * work_time
@@ -27,13 +35,41 @@ def work(player):
                     print(f"Your total wallet balance is now ${player.get_player_info('wallet')}")
                     st.wait()
                     
-            case 'promotion': ''
+            case 'promotion':
+                if not isinstance(player.get_player_info('job'), pd.DataFrame):
+                    print(f"You don't have a job, you {st.get_insult()}!")
+                else:
+                    print(player.get_player_info('rapport'))
+                    print(player.get_player_info('rapport_required'))
+                    if player.get_player_info('rapport') >= player.get_player_info('rapport_required'):
+                        '''Increase their pay by a random integer'''
+                        if st.mature:
+                            print("Fuck it, here you go.")
+                            increase = np.random.randint(1,5)
+                            player.increase_pay(increase)
+                            print(f'You make ${increase} more')
+                            pay = player.get_player_info('pay')
+                            print(f'Your current pay is {pay}')
+                        else:
+                            print("Screw it, here you go.")
+                            increase = np.random.randint(1,5)
+                            player.increase_pay(increase)
+                            print(f'You make ${increase} more')
+                            pay = player.get_player_info('pay')
+                            print(f'Your current pay is {pay}')
+                    else:
+                        if st.mature:
+                            print(f"Get the fuck out, you {st.get_insult()}")
+                        else:
+                            print(f"Get out of here, you {st.get_insult()}")
+                    st.wait()
+            
             case 'quit': 
                 if not isinstance(player.get_player_info('job'), pd.DataFrame): 
-                    print("You dumbass, you don't have a job")
+                    print(f"You {st.get_insult()}, you don't have a job")
                 else:
                     name = player.get_player_info('boss_name').split(' ')
-                    print(f"Hey {name[0]}! You suck ass!")
+                    print(f'Hey {name[0]}! You suck, you "{st.get_insult()}"!')
                     player.quit_job()
                     st.wait()
                     

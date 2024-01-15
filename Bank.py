@@ -1,6 +1,12 @@
 import Settings as st
+import pandas as pd
 
-mature = st.mature
+root_dir = st.get_root()
+insults = ''
+if st.mature:
+    insults = pd.read_csv(root_dir + '/SortedInsults.csv')
+else:
+    insults = pd.read_csv(root_dir + '/SortedClean.csv')
 
 '''Maybe rewrite this'''
 
@@ -22,7 +28,7 @@ class Bank:
     
     def apply_interest(self):
         if self.principle == 0:
-            print("You don't have a loan you dumbass!")
+            print(f"You don't have a loan you {insults}!")
         else:  
             self.principle = self.calculate_interest(self.principle, self.rate)
     
@@ -36,3 +42,38 @@ class Bank:
             print("You already have an account.")
             return False
         self.principle = initial_amount
+        
+        
+        
+    def pay_debt():
+        '''Here you pay your debt (starts at $1,000,000)'''
+        user_input = input("How much would you like to pay? Enter amount here: ")
+        if user_input == 'exit':
+            return False
+        elif user_input == 'quit':
+            st.quit()
+        try: # Checks if the user input is an integer, if so, add it to the user's debt account. 
+            user_input = int(user_input)
+        except ValueError:
+            print("Sorry, that wasn't an acceptable answer.")
+        return True
+
+    def get_loan():
+        '''Get a loan with different rates'''
+        '''Bank: 10% but you need high credit'''
+        '''Loan Shark: 20% but it is the starting loan'''
+        '''Large Loan Shark: 30% but can give the largest loan'''
+        
+        user_input = input("\n1. Request Bank loan(10%)\t2. Request loan shark loan(20%)\n3. Request large loan(30%)\nEach loan increments per move. What would you like to do?\n")
+        match(user_input.lower):
+            case 'bank': # Check if the user has a high enough credit, add money to their account and their debt count
+                ""
+            case 'shark': # Check if the user has another loan, add money to their account and their debt count
+                ""
+            case 'paycheck': # Check if the user has a high enough credit, add money to their account and their debt count
+                ""
+            case 'exit':
+                return False
+            case 'quit':
+                st.quit()
+        return True

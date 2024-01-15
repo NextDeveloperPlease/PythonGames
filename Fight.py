@@ -6,6 +6,7 @@ root_dir = st.get_root()
 mature = st.mature
 
 def fight(player):
+    st.clear_screen()
     dogs = pd.read_csv(root_dir + '/Dogs.csv')
     dogs = dogs.columns
     num_dogs = 6
@@ -46,10 +47,11 @@ def fight(player):
         st.quit()
     if user_input == winner.lower():
         print("Congratulations!")
-        player.add(bet * 4)
+        player.add(bet * 10)
         print(player.get_player_info('wallet'))
     else:
         print("Better luck next time.")
         player.spend(bet)
         print(player.get_player_info('wallet'))
+    st.wait()
     return True

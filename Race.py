@@ -6,6 +6,7 @@ root_dir = st.get_root()
 mature = st.mature
 
 def race(player):
+    st.clear_screen()
     dogs = pd.read_csv(root_dir + '/Dogs.csv')
     dogs = dogs.columns
     num_dogs = 4
@@ -50,4 +51,5 @@ def race(player):
         print("Better luck next time.")
         player.spend(bet)
         print(player.get_player_info('wallet'))
+    st.wait()
     return True
