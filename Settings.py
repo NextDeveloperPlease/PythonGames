@@ -6,6 +6,19 @@ import pandas as pd
 
 mature = True
 insults = []
+player = None
+
+def on_start(is_mature, current_player):
+    global mature
+    mature = is_mature
+    global insults
+    if mature:
+        insults = pd.read_csv(get_root() + '/SortedInsults.csv')['Insults'].tolist()
+    else:
+        insults = pd.read_csv(get_root() + '/SortedClean.csv')['Insults'].tolist()
+    global player
+    player = current_player
+    
 
 def quit():
     sys.exit()
@@ -20,17 +33,14 @@ def wait():
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-def set_mature(is_mature=True):
-    global mature
-    mature = is_mature
-    
-def set_insult():
-    global insults
-    if mature:
-        insults = pd.read_csv(get_root() + '/SortedInsults.csv')['Insults'].tolist()
-    else:
-        insults = pd.read_csv(get_root() + '/SortedClean.csv')['Insults'].tolist()
-
 def get_insult():
     global insults
     return np.random.choice(insults)
+
+def get_mature():
+    global mature
+    return mature
+
+def get_player():
+    global player
+    return player

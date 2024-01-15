@@ -12,4 +12,8 @@ with open('Names.csv', 'r', newline='') as name:
 with open(csv_file_path, 'a', newline='') as file:
         writer = csv.writer(file)
         for i in np.arange(100):
-            writer.writerow([f'{np.random.choice(names)} {np.random.choice(names)}',np.random.randint(50,2000)])
+            r = np.random.randint(0,1000)
+            if r % 5 == 0:
+                r = 0
+                print(r)
+            writer.writerow([f'{np.random.choice(names)} {np.random.choice(names)}',r])

@@ -64,7 +64,8 @@ def rob():
 def menu(): # allows the user to check their money and items.
     ''
 
-st.mature = input("Would you like mature settings?\nYes or no: ").lower() == 'yes'
+player = Player()
+st.on_start(input("Would you like mature settings?\nYes or no: ").lower() == 'yes', player)
 
 city = ''
 vice = ''
@@ -80,12 +81,9 @@ else:
     vice = "passion's"
     negative_outcome = 'wind up poor and in the dog house'
 
-st.set_insult()
-
 print(f"Welcome to {city}!\nPick your poison and let all your {vice} live wild!")
 print(f"You must make the right choices and end up rich or {negative_outcome}.\nYour choices are free.")
 print(f"You start out $100,000 in debt{hangover}.")
-player = Player()
 while running and player.alive:
     user_input = input("1. Gamble\t\t2. Work\n3. Bank\t\t\t4. Rob someone?\n5. Menu\n")
     match(user_input.lower()):
@@ -96,7 +94,8 @@ while running and player.alive:
             st.clear_screen()
             while working(): ''
         case 'bank':
-            get_loan()
+            st.clear_screen()
+            while banking(): ''
         case 'rob':
             rob()
         case 'menu':

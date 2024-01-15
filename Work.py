@@ -31,38 +31,29 @@ def work(player):
                     pay = player.get_player_info('pay') * work_time
                     player.add(pay)
                     player.clock.update(player.get_player_info('duration'))
+                    player.increase_skill()
                     print(f"You worked {work_time} hours and made ${pay}")
                     print(f"Your total wallet balance is now ${player.get_player_info('wallet')}")
+                    print(f"Your skill level increased to {player.get_player_info('skill')}")
                     st.wait()
                     
             case 'promotion':
                 if not isinstance(player.get_player_info('job'), pd.DataFrame):
                     print(f"You don't have a job, you {st.get_insult()}!")
+                    break
+                print(player.get_player_info('rapport'))
+                print(player.get_player_info('rapport_required'))
+                if player.get_player_info('rapport') >= player.get_player_info('rapport_required'):
+                    '''Increase their pay by a random integer'''
+                    increase = np.random.randint(1,5)
+                    player.increase_pay(increase)
+                    pay = player.get_player_info('pay')
+                    print("Fuck it, here you go." if st.mature else 'Screw it, here you go.')
+                    print(f'You make ${increase} more')
+                    print(f'Your current pay is {pay}')
                 else:
-                    print(player.get_player_info('rapport'))
-                    print(player.get_player_info('rapport_required'))
-                    if player.get_player_info('rapport') >= player.get_player_info('rapport_required'):
-                        '''Increase their pay by a random integer'''
-                        if st.mature:
-                            print("Fuck it, here you go.")
-                            increase = np.random.randint(1,5)
-                            player.increase_pay(increase)
-                            print(f'You make ${increase} more')
-                            pay = player.get_player_info('pay')
-                            print(f'Your current pay is {pay}')
-                        else:
-                            print("Screw it, here you go.")
-                            increase = np.random.randint(1,5)
-                            player.increase_pay(increase)
-                            print(f'You make ${increase} more')
-                            pay = player.get_player_info('pay')
-                            print(f'Your current pay is {pay}')
-                    else:
-                        if st.mature:
-                            print(f"Get the fuck out, you {st.get_insult()}")
-                        else:
-                            print(f"Get out of here, you {st.get_insult()}")
-                    st.wait()
+                    print(f"Get the fuck out, you {st.get_insult()}" if st.mature else f"Get out of here, you {st.get_insult()}")
+                st.wait()
             
             case 'quit': 
                 if not isinstance(player.get_player_info('job'), pd.DataFrame): 
@@ -75,7 +66,7 @@ def work(player):
                     
             case 'apply':
                 not_selected = True
-                possible_jobs = jobs[jobs['skill_required'] <= player.get_player_info('skill')]
+                possible_jobs = jobs[(jobs['skill_required'] <= player.get_player_info('skill')) & (jobs['rapport_required'] <= player.get_player_info('rapport'))]
                 while not_selected:
                     actual_jobs = None
                     if len(possible_jobs) <= 0:

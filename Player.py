@@ -10,14 +10,14 @@ class Player:
         self.alive = True
         self.clock = time()
         self.job = None
-        self.skill = 2000
+        self.skill = 0
         self.boss_name = None
         self.job_name = None
         self.duration = None
         self.pay = None
         self.rapport_required = None
         self.rapport_increased = None
-        self.rapport = 2000
+        self.rapport = 0
         self.skill_required = None
         self.skill_increased = None
     
@@ -50,9 +50,8 @@ class Player:
         self.rapport_required = None
         self.skill_required = None
         
-    def increase_skill(self, skill):
-        self.skill += skill
-        self.job['skill'] = self.skill
+    def increase_skill(self):
+        self.skill += self.skill_increased
 
     def increase_rapport(self, rapport):
         self.rapport += rapport
