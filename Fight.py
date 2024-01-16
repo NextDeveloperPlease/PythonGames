@@ -3,9 +3,8 @@ import pandas as pd
 import Settings as st
 
 root_dir = st.get_root()
-mature = st.mature
 
-def fight(player):
+def fight(player): # Future update: make this have a mature setting. (Dog fights shouldn't be a happy experience)
     st.clear_screen()
     dogs = pd.read_csv(root_dir + '/Dogs.csv')
     dogs = dogs.columns

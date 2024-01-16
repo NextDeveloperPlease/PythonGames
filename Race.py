@@ -3,7 +3,6 @@ import pandas as pd
 import Settings as st
 
 root_dir = st.get_root()
-mature = st.mature
 
 def race(player):
     st.clear_screen()

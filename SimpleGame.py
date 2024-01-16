@@ -6,9 +6,6 @@ from Work import *
 from Banking import *
 import Settings as st
 
-running = True
-mature = True
-
 '''Six Options
     Gamble
     Work
@@ -84,7 +81,7 @@ else:
 print(f"Welcome to {city}!\nPick your poison and let all your {vice} live wild!")
 print(f"You must make the right choices and end up rich or {negative_outcome}.\nYour choices are free.")
 print(f"You start out $100,000 in debt{hangover}.")
-while running and player.alive:
+while player.alive:
     user_input = input("1. Gamble\t\t2. Work\n3. Bank\t\t\t4. Rob someone?\n5. Menu\n")
     match(user_input.lower()):
         case 'gamble':

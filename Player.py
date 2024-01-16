@@ -2,8 +2,6 @@ from Clock import time
 import Settings as st
 from Wallet import Wallet
 
-mature = st.mature
-
 class Player:
     def __init__(self):
         self.wallet = Wallet(1000)
