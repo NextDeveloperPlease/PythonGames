@@ -43,6 +43,7 @@ def rob():
     '''Parent's House: Easy'''
     '''Neighbor's House: Medium'''
     '''Rich Neighbor Down the Street: Hard'''
+    '''Each bank can be robbed'''
     
     user_input = input("\n1. Work\t2. Request promotion\n3. Get paycheck\nWhat would you like to do?\n")
     match(user_input.lower):
