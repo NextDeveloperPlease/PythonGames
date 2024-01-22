@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import Settings as st
 
-nsfw = "The explosion rings out before everyone\nnotices you slumped over in your chair.\nThe wall behind you is painted red.\nA pool starts forming on the table.\nYou Died"
+nsfw = "The explosion rings out before everyone\nnotices you slumped over in your chair.\nA pool starts forming on the table.\nYou Died"
 sfw = "The bullet misses you by inches.\nYou realize life isn't worth this risk and leave.\nNo one knows where you went.\nGame Over"
 
 def russian(player):
