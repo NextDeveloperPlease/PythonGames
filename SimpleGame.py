@@ -5,6 +5,7 @@ from RussianRoulette import *
 from Work import *
 from Banking import *
 import Settings as st
+from Armory import Armory
 
 '''Six Options
     Gamble
@@ -63,7 +64,8 @@ def menu(): # allows the user to check their money and items.
     ''
 
 player = Player()
-st.on_start(input("Would you like mature settings?\nYes or no: ").lower() == 'yes', player)
+armory = Armory()
+st.on_start(input("Would you like mature settings?\nYes or no: ").lower() == 'yes', player, armory)
 
 city = ''
 vice = ''

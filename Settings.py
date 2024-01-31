@@ -7,8 +7,9 @@ import pandas as pd
 mature = True
 insults = []
 player = None
+armory = None
 
-def on_start(is_mature, current_player):
+def on_start(is_mature, current_player, current_armory):
     global mature
     mature = is_mature
     global insults
@@ -18,6 +19,7 @@ def on_start(is_mature, current_player):
         insults = pd.read_csv(get_root() + '/SortedClean.csv')['Insults'].tolist()
     global player
     player = current_player
+    armory = current_armory
     
 
 def quit():
@@ -44,3 +46,6 @@ def get_mature():
 def get_player():
     global player
     return player
+
+def get_armory():
+    return armory
