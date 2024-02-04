@@ -47,6 +47,5 @@ def pay_out(player, bet, multiplier):
     
 '''Lists off the available guns to choose from and then lets the user pick their gun'''
 def select_gun():
-    armory = st.get_armory()
-    gun = Gun(5)
+    gun = st.armory.get_gun()
     return gun

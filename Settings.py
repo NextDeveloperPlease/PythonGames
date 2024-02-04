@@ -11,15 +11,17 @@ armory = None
 
 def on_start(is_mature, current_player, current_armory):
     global mature
-    mature = is_mature
     global insults
+    global player
+    global armory
+    mature = is_mature
+    player = current_player
+    armory = current_armory
+    
     if mature:
         insults = pd.read_csv(get_root() + '/SortedInsults.csv')['Insults'].tolist()
     else:
         insults = pd.read_csv(get_root() + '/SortedClean.csv')['Insults'].tolist()
-    global player
-    player = current_player
-    armory = current_armory
     
 
 def quit():
@@ -48,4 +50,5 @@ def get_player():
     return player
 
 def get_armory():
+    global armory
     return armory

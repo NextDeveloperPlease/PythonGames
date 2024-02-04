@@ -63,6 +63,9 @@ def rob():
 def menu(): # allows the user to check their money and items.
     ''
 
+def gun_store():
+    ''
+
 player = Player()
 armory = Armory()
 st.on_start(input("Would you like mature settings?\nYes or no: ").lower() == 'yes', player, armory)
@@ -100,6 +103,8 @@ while player.alive:
             rob()
         case 'menu':
             menu()
+        case 'gun store':
+            gun_store()
         case 'quit':
             st.quit()
         case _:
