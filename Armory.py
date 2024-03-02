@@ -26,6 +26,6 @@ class Armory:
                 return gun
         return None
         
-a = Armory()
-current_gun = a.get_gun()
-print(current_gun)
+#a = Armory()
+#current_gun = a.get_gun()
+#print(current_gun)
