@@ -1,13 +1,15 @@
 import numpy as np
 import Settings as st
+from enum import Enum
 
 # Add an enum for the live and blank rounds. That way I only have to update one location to change stuff
 
 class Gun:
-    def __init__(self, gun_capacity, gun_type) -> None:
+    def __init__(self, gun_type, gun_capacity, gun_damage) -> None:
         self.gun_capacity = gun_capacity
         self.ammo_loaded = []
         self.gun_type = gun_type
+        self.damage = gun_damage
     
     '''Takes a user input and fills the gun with that many live rounds. User input should be an integer.'''
     def load(self):
@@ -63,3 +65,12 @@ class Gun:
     
     def get_capacity(self):
         return self.gun_capacity
+    
+class Guns():
+    GLOCK = Gun("Glock", 16, 4)
+    PISTOL = Gun("1911", 8, 4)
+    AR = Gun("AR", 30, 6)
+    Big_GAME_REVOLVER = Gun("Big Game Revolver", 5, 10)
+    REVOLVER = Gun(".38 Revolver", 6, 6)
+    TWELVE_GAUGE_SHOTGUN = Gun("Twelve Gauge", 5, 10)
+    TWENTY_GAUGE_SHOTGUN = Gun("Twenty Gauge Shotgun", 5, 10)

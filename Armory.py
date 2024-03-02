@@ -1,7 +1,8 @@
 from Gun import Gun
+from Gun import Guns as g
 class Armory:
     def __init__(self):
-        self.guns = [Gun(5, 'shotgun'), Gun(6, 'revolver'), Gun(8, '1911')]
+        self.guns = [g.TWENTY_GAUGE_SHOTGUN, g.REVOLVER, g.PISTOL]
     
     def add_gun(self, gun_type, capacity):
         self.guns.append(Gun(capacity, gun_type))
@@ -21,10 +22,10 @@ class Armory:
         
     def find_gun (self, gun_type):
         for gun in self.guns:
-            if gun_type == gun.get_gun_type():
+            if gun_type.lower() in gun.get_gun_type().lower():
                 return gun
         return None
         
-#a = Armory()
-#current_gun = a.get_gun()
-#print(current_gun)
+a = Armory()
+current_gun = a.get_gun()
+print(current_gun)
